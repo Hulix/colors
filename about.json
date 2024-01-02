@@ -1,0 +1,36 @@
+{
+  "name": "LGM_0.1",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "LGM_ColorPalette_Light": {
+      "primary": "312448",
+      "secondary": "FFFFFF",
+      "tertiary": "287DFF",
+      "quaternary": "B464F0",
+      "header_background": "F5F5FA",
+      "header_primary": "312448",
+      "highlight": "ffffff",
+      "danger": "FF645A",
+      "success": "3CC878",
+      "love": "FFB4B4",
+      "primary-medium": "312448",
+      "primary-low-mid": "c689f5",
+      "highlight-high": "287DFF",
+      "highlight-medium": "ebebfa",
+      "highlight-low": "F5F5FA",
+      "selected": "ebebfa",
+      "hover": "ebebfa"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
