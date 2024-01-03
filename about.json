@@ -11,12 +11,12 @@
   },
   "color_schemes": {
     "LGM_reverse": {
-      "primary": "287DFF",
-      "secondary": "287DFF",
-      "tertiary": "287DFF",
-      "quaternary": "287DFF",
-      "header_background": "287DFF",
-      "header_primary": "287DFF",
+      "primary": "FAFAF5",
+      "secondary": "312448",
+      "tertiary": "AB4FF0",
+      "quaternary": "F19DFF",
+      "header_background": "312448",
+      "header_primary": "FAFAF5",
       "highlight": "ffffff",
       "danger": "FF645A",
       "success": "3CC878",
