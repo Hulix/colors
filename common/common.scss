@@ -28,5 +28,8 @@ img.avatar {
     color: var(--secondary-high);
     border: 1px solid var(--primary);
     border-radius:var(--radius-l);
+    &:hover{
+      background: var(--highlight);
+    }
 }
 
