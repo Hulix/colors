@@ -14,6 +14,7 @@
 %blocshine{
   background:var(--primary);
   border-radius: var(--radius-l);
+  color:var(--secondary-darker)
   &:hover{
     background: var(--highlight);
   }
@@ -50,7 +51,7 @@
         display:grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         align-items: stretch;
-        gap:var(--space-l);
+        gap:var(--space-m);
         tr{
           max-height: 9rem;
           @extend %blocshine;
