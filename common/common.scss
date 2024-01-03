@@ -6,14 +6,19 @@
   --radius-m: 0.313rem;
   --radius-s: 0.25rem;
   --line-m: 0.125rem;
-  --spacex: 0.25rem;
+  --spacex: 3.75rem;
+  --shadow-card: none;
 }
 .wrap.welcome-link-banner{
   padding:0;
 }
-.above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper{
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
   background:var(--primary-low);
   margin:0 0 var(--spacex) 0;
+}
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper{
+  background:inherit;
+  margin:0;
 }
 .badge-category__wrapper .badge-category:before{
   border-radius:0.25rem
