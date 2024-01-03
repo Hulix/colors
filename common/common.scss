@@ -15,11 +15,13 @@
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
   background:var(--primary-low);
   margin:0 0 var(--spacex) 0;
+  border-radius: var(--radius-l);
+  &.above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper{
+    background:inherit;
+    margin:0;
+  }
 }
-.above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper{
-  background:inherit;
-  margin:0;
-}
+
 .badge-category__wrapper .badge-category:before{
   border-radius:0.25rem
 }
