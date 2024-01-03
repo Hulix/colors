@@ -16,6 +16,7 @@
 .wrap.welcome-link-banner{
   padding:0;
 }
+
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
   background:var(--primary-low);
   margin:0 0 var(--space-l) 0;
@@ -25,18 +26,20 @@
     margin:0;
   }
 }
+
 .categories-and-latest{
   display:block;
   .column.categories {
     display: block;
-    margin-right:0;
-  }
-  .category-list{
-    margin-bottom:var(--space-l);
-  }
-  tbody{
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap:var(--space-l);
+    &@media (min-width: 700px){margin-right:0}
+    .category-list{
+      margin-bottom:var(--space-l);
+      tbody{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap:var(--space-l);
+      }
+    }
   }
 }
 
