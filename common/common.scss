@@ -10,6 +10,10 @@
   --space-m: 1.625rem;
   --shadow-card: none;
 }
+%blocshine{
+  background:var(--primary-low);
+  border-radius: var(--radius-l);
+}
 .sidebar-wrapper .sidebar-container {
   border-right:none;
 }
@@ -27,6 +31,7 @@
   }
 }
 
+
 .categories-and-latest{
   display:block;
   .column.categories {
@@ -34,9 +39,12 @@
     .category-list{
       margin-bottom:var(--space-l);
       tbody{
-      display:grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap:var(--space-l);
+        display:grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap:var(--space-l);
+        tr{
+          @extend %blocshine;
+        }
       }
     }
   }
