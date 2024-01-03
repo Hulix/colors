@@ -2,6 +2,10 @@
 :root{
   --d-sidebar-link-color: var(--primary);
   --d-sidebar-link-icon-color: var(--primary);
+  --radius-l: 0.5rem;
+  --radius-m: 0.313rem;
+  --radius-s: 0.25rem;
+  --line-m: 0.125rem;
 }
 .badge-category__wrapper .badge-category:before{
   border-radius:0.25rem
@@ -11,15 +15,18 @@
 }
 .d-header{
   box-shadow:none;
-  border-bottom:2px solid var(--primary-low)
+  border-bottom:var(--line-m) solid var(--primary-low)
 }
 .header-sidebar-toggle button .d-icon {
   color: var(--primary);
+}
+img.avatar {
+    border: var(--radius-s) solid var(--primary);
 }
 .list-controls .combo-box .combo-box-header {
     background: var(--primary);
     color: var(--secondary-high);
     border: 1px solid var(--primary);
-    border-radius:0.5rem;
+    border-radius:var(--radius-l);
 }
 
