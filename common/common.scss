@@ -27,14 +27,14 @@
 }
 .categories-and-latest{
   display:block;
-}
-.categories-and-latest div.column.categories {
-  display: block;
-  margin-right:0;
+  .column.categories {
+    display: block;
+    margin-right:0;
+  }
   .category-list{
     margin-bottom:var(--space-l);
   }
-  tbody.categories-only-category{
+  tbody{
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap:var(--space-l);
   }
