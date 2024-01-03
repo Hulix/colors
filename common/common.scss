@@ -4,6 +4,9 @@
   --d-sidebar-link-icon-color: var(--primary);
 }
 .badge-category__wrapper .badge-category:before{
+  border-radius:0.25rem
+}
+.sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
   border-radius:0.313rem
 }
 .d-header{
@@ -17,6 +20,6 @@
     background: var(--primary);
     color: var(--secondary-high);
     border: 1px solid var(--primary);
-    border-radius:0.313rem;
+    border-radius:0.5rem;
 }
 
