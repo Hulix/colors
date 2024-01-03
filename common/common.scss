@@ -6,21 +6,37 @@
   --radius-m: 0.313rem;
   --radius-s: 0.25rem;
   --line-m: 0.125rem;
-  --spacex: 3.75rem;
+  --space-l: 3.75rem;
+  --space-m: 1.625rem;
   --shadow-card: none;
+}
+.sidebar-wrapper .sidebar-container {
+  border-right:none;
 }
 .wrap.welcome-link-banner{
   padding:0;
 }
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
   background:var(--primary-low);
-  margin:0 0 var(--spacex) 0;
+  margin:0 0 var(--space-l) 0;
   border-radius: var(--radius-l);
   .welcome-wrapper{
     background:inherit;
     margin:0;
   }
 }
+.categories-and-latest div.column.categories {
+  display: block;
+  margin-right:0;
+  .category-list{
+    margin-bottom:var(--space-l);
+  }
+  tbody.categories-only-category{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap:var(--space-l);
+  }
+}
+
 
 .badge-category__wrapper .badge-category:before{
   border-radius:0.25rem
