@@ -21,14 +21,14 @@
       "danger": "FF645A",
       "success": "3CC878",
       "love": "FFB4B4",
-      "primary_low": "49376A",
+      "primary-low": "49376A",
       "primary-medium": "312448",
       "primary-low-mid": "c689f5",
       "highlight-high": "287DFF",
       "highlight-medium": "ebebfa",
       "highlight-low": "F5F5FA",
       "selected": "ebebfa",
-      "hover": "ebebfa"
+      "hover": "ebebfa",
     }
   },
   "modifiers": {
