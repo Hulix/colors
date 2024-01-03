@@ -10,10 +10,19 @@
   --space-m: 1.625rem;
   --shadow-card: none;
 }
+
 %blocshine{
+  background:var(--primary);
+  border-radius: var(--radius-l);
+  &:hover{
+    background: var(--highlight);
+  }
+}
+%blocsoft{
   background:var(--primary-low);
   border-radius: var(--radius-l);
 }
+
 .sidebar-wrapper .sidebar-container {
   border-right:none;
 }
