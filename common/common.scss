@@ -49,8 +49,10 @@
       tbody{
         display:grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
         gap:var(--space-l);
         tr{
+          max-height: 9rem;
           @extend %blocshine;
         }
       }
