@@ -31,7 +31,6 @@
   display:block;
   .column.categories {
     display: block;
-    &@media (min-width: 700px){margin-right:0}
     .category-list{
       margin-bottom:var(--space-l);
       tbody{
