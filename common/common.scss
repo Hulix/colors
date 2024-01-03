@@ -55,7 +55,7 @@
         tr{
           max-height: 9rem;
           @extend %blocshine;
-          h3{
+          .category > h3{
             color:var(--secondary-high);
           }
           .category-description{
