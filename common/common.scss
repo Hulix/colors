@@ -14,7 +14,7 @@
 %blocshine{
   background:var(--primary);
   border-radius: var(--radius-l);
-  color:var(--secondary-darker)
+  color:var(--secondary-darker);
   &:hover{
     background: var(--highlight);
   }
@@ -55,6 +55,12 @@
         tr{
           max-height: 9rem;
           @extend %blocshine;
+          h3{
+            color:var(--secondary-high);
+          }
+          .category-description{
+            color:var(--secondary-darker);
+          }
         }
       }
     }
@@ -76,7 +82,8 @@
   color: var(--primary);
 }
 img.avatar {
-    border: var(--radius-s) solid var(--primary);
+  border: var(--radius-s) solid var(--primary);
+  background:var(--primary);
 }
 .list-controls .combo-box .combo-box-header {
     background: var(--primary);
