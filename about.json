@@ -11,12 +11,12 @@
   },
   "color_schemes": {
     "LGM_ColorPalette_Light": {
-      "primary": "312448",
-      "secondary": "FFFFFF",
+      "primary": "287DFF",
+      "secondary": "287DFF",
       "tertiary": "287DFF",
-      "quaternary": "B464F0",
-      "header_background": "F5F5FA",
-      "header_primary": "312448",
+      "quaternary": "287DFF",
+      "header_background": "287DFF",
+      "header_primary": "287DFF",
       "highlight": "ffffff",
       "danger": "FF645A",
       "success": "3CC878",
