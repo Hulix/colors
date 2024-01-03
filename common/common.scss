@@ -10,7 +10,7 @@
   --space-m: 1.625rem;
   --shadow-card: none;
 }
-
+/* Héritages étendus */
 %blocshine{
   background:var(--primary);
   border-radius: var(--radius-l);
@@ -31,9 +31,8 @@
 }
 
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
-  background:var(--primary-low);
   margin:0 0 var(--space-l) 0;
-  border-radius: var(--radius-l);
+  @extend %blocsoft;
   .welcome-wrapper{
     background:inherit;
     margin:0;
@@ -78,11 +77,13 @@ img.avatar {
 }
 .list-controls .combo-box .combo-box-header {
     background: var(--primary);
-    color: var(--secondary-high);
     border: 1px solid var(--primary);
     border-radius:var(--radius-l);
     &:hover{
       background: var(--highlight);
     }
+  .selected-name{
+    color: var(--secondary-high);
+  }
 }
 
