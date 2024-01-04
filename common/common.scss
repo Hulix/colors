@@ -1,16 +1,33 @@
 
 :root{
+  /* Fix */
   --d-sidebar-link-color: var(--primary);
   --d-sidebar-link-icon-color: var(--primary);
   --d-sidebar-highlight-background:var(--secondary-low);
-  --radius-l: 0.5rem;
-  --radius-m: 0.313rem;
-  --radius-s: 0.25rem;
-  --line-m: 0.125rem;
-  --space-l: 3.75rem;
-  --space-m: 1.625rem;
+  /* Sizes */
+  --w0: 0rem; /* 0px */
+  --w1: 0.125rem; /* 2px */
+  --w2: 0.25rem; /* 4px */
+  --w3: 0.375rem; /* 6px */
+  --w4: 0.5rem; /* 8px */
+  --w5: 0.625rem; /* 10px */
+  --w6: 0.75rem; /* 12px */
+  --w7: 0.875rem; /* 14px */
+  --w8: 1.25rem; /* 20px */
+  --w9: 1.5rem; /* 24px */
+  --w10: 1.625rem; /* 26px */
+  --w11: 3.75rem; /* 60px */
+  
+  /* Tools */
+  --radius-s: var(--w2);
+  --radius-m: var(--w3);
+  --radius-l: var(--w4);
+  --line-s: var(--w1);
+  --line-m: var(--w2);
+  --space-m: var(--w10);
+  --space-l: var(--w11);
+  
   --shadow-card: none;
-  --line-s: 0.125rem;
 }
 
 /* Héritages étendus */
@@ -26,6 +43,9 @@
 %blocsoft{
   background:var(--secondary-low);
   border-radius: var(--radius-l);
+}
+%border-bs{
+  border-bottom:var(--line-s) solid var(--secondary-low)
 }
 
 /* Général */
@@ -44,7 +64,7 @@ body{
 }
 .d-header{
   box-shadow:none;
-  border-bottom:var(--line-m) solid var(--primary-low)
+  @extend %border-bs;
 }
 .header-sidebar-toggle button .d-icon {
   color: var(--primary);
@@ -76,9 +96,9 @@ img.avatar {
     @extend %blocshine;
     border: 0.313rem solid var(--primary);
     .category-box-inner {
-      gap:1.5rem;
+      gap:var(--w7);
       .category-details{
-        padding:1.5rem;
+        padding:var(--w7) 0;
         .category-box-heading {
           &:before{
             content:'💬';
@@ -145,6 +165,6 @@ img.avatar {
 }
 
 /* Topics */
-.latest-topic-list-item {
-    border-bottom: var(--line-s) solid var(--secondary-low);
+.latest-topic-list-item, .table-heading {
+    @extend %border-bs;
 }
