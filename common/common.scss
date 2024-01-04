@@ -73,7 +73,13 @@ img.avatar {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   .category-box {
     @extend %blocshine;
-    
+    border: 0.313rem solid var(--primary);
+    .category-logo.no-logo-present{
+      width:3rem;
+      .category-abbreviation {
+        display:none;
+      }
+    }
   }
 }
 
