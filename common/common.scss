@@ -11,6 +11,14 @@
   --space-m: 1.625rem;
   --shadow-card: none;
 }
+body{
+  font-size:1rem;
+}
+.btn{
+  background:var(--secondary);
+  color:var(--highlight);
+}
+
 /* Héritages étendus */
 %blocshine{
   background:var(--primary);
