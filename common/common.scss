@@ -26,7 +26,6 @@
   --line-m: var(--w2);
   --space-m: var(--w10);
   --space-l: var(--w11);
-  
   --shadow-card: none;
 }
 
@@ -98,7 +97,7 @@ img.avatar {
     .category-box-inner {
       gap:var(--w7);
       .category-details{
-        padding:var(--w7) 0;
+        padding:var(--w7);
         .category-box-heading {
           &:before{
             content:'💬';
@@ -150,8 +149,7 @@ img.avatar {
   }
 }
 
-
-
+/* Selectbox */
 .list-controls .combo-box .combo-box-header {
     background: var(--primary);
     border: 1px solid var(--primary);
@@ -168,3 +166,10 @@ img.avatar {
 .latest-topic-list-item, .table-heading {
     @extend %border-bs;
 }
+
+/* Fix home filters */
+.navigation-categories.categories-list .navigation-container > ol.category-breadcrumb.ember-view,
+.navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
+  display:none;
+}
+
