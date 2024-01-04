@@ -1,5 +1,6 @@
 
 :root{
+  font-size:16px;
   /* Fix */
   --d-sidebar-link-color: var(--primary);
   --d-sidebar-link-icon-color: var(--primary);
@@ -49,8 +50,9 @@
 }
 
 /* Général */
-body{
-  font-size:1rem;
+body {
+    font-family: PPTelegraf-Regular;
+    font-size: 1rem;
 }
 .btn{
   background:var(--secondary);
