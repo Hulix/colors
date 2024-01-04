@@ -76,15 +76,15 @@ img.avatar {
     @extend %blocshine;
     border: 0.313rem solid var(--primary);
     .category-box-inner {
-      gap:3rem;
+      gap:1.5rem;
       .category-box-heading h3{
         color:var(--secondary-high);
       }
       .description p{
-          color:var(--secondary-darker);
+          color:var(--secondary-high);
       }
       .category-logo.no-logo-present{
-        width:3rem;
+        width:1.5rem;
         .category-abbreviation {
           display:none;
         }
