@@ -10,6 +10,7 @@
   --space-l: 3.75rem;
   --space-m: 1.625rem;
   --shadow-card: none;
+  --line-s: 0.125;
 }
 .hello-world-banner {
     height: 300px;
@@ -120,3 +121,7 @@ img.avatar {
   }
 }
 
+/* Topics */
+.latest-topic-list-item {
+    border-bottom: var(--line-s) solid var(--secondary-low);
+}
