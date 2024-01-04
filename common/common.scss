@@ -94,7 +94,7 @@ img.avatar {
   gap:var(--space-m);
   .category-box {
     @extend %blocshine;
-    border: var(--w-3) solid var(--primary);
+    border: var(--w3) solid var(--primary);
     .category-box-inner {
       gap:var(--w7);
       .category-details{
