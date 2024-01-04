@@ -77,12 +77,14 @@ img.avatar {
     border: 0.313rem solid var(--primary);
     .category-box-inner {
       gap:1.5rem;
-      .category-box-heading h3{
-        color:var(--secondary-high);
+      .category-box-heading {
         &:before{
           content:'💬';
           display:block;
           font-size:3rem;
+        }
+        h3{
+        color:var(--secondary-high);
         }
       }
       .description p{
