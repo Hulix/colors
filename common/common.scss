@@ -79,7 +79,7 @@ img.avatar {
 .wrap.welcome-link-banner{
   padding:0;
 }
-
+/* Bannière accueil */
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
   margin:0 0 var(--space-l) 0;
   @extend %blocsoft;
@@ -150,6 +150,7 @@ img.avatar {
   }
 }
 
+
 /* Selectbox */
 .list-controls .combo-box .combo-box-header {
     background: var(--primary);
@@ -163,6 +164,10 @@ img.avatar {
   }
 }
 
+/* Container Topics */
+.navigation-categories .list-container .full-width #list-area .contents .column {
+  margin-top : calc(var(--space-l) - var(--w6);
+}
 /* Topics */
 .latest-topic-list .table-heading{
   color:var(--primary);
@@ -174,8 +179,6 @@ img.avatar {
 }
 
 /* Fix home filters */
-
-
 .navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
   padding:0;
   background:transparent;
