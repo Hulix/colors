@@ -72,9 +72,11 @@ img.avatar {
 .custom-category-boxes:not(.above-discovery-categories-outlet) {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap:var(--space-m);
-    .category-box {
-      @extend %blocshine;
-      border: 0.313rem solid var(--primary);
+  .category-box {
+    @extend %blocshine;
+    border: 0.313rem solid var(--primary);
+    .category-box-inner {
+      gap:3rem;
       .category-box-heading h3{
         color:var(--secondary-high);
       }
@@ -87,6 +89,7 @@ img.avatar {
           display:none;
         }
       }
+    }    
   }
 }
 
