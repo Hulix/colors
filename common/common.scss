@@ -94,7 +94,7 @@ img.avatar {
   gap:var(--space-m);
   .category-box {
     @extend %blocshine;
-    border: 0.313rem solid var(--primary);
+    border: var(--w-3) solid var(--primary);
     .category-box-inner {
       gap:var(--w7);
       .category-details{
@@ -114,7 +114,7 @@ img.avatar {
           color:var(--secondary-high);
       }
       .category-logo.no-logo-present{
-        width:1.5rem;
+        width: calc(var(--w9) - var(--w3));
         .category-abbreviation {
           display:none;
         }
