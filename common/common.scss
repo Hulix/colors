@@ -10,15 +10,7 @@
   --space-l: 3.75rem;
   --space-m: 1.625rem;
   --shadow-card: none;
-  --line-s: 0.125;
-}
-
-body{
-  font-size:1rem;
-}
-.btn{
-  background:var(--secondary);
-  color:var(--highlight);
+  --line-s: 0.125rem;
 }
 
 /* Héritages étendus */
@@ -26,6 +18,7 @@ body{
   background:var(--primary);
   border-radius: var(--radius-l);
   color:var(--secondary-darker);
+  box-shadow: var(--shadow-card);
   &:hover{
     background: var(--highlight);
   }
@@ -35,6 +28,31 @@ body{
   border-radius: var(--radius-l);
 }
 
+/* Général */
+body{
+  font-size:1rem;
+}
+.btn{
+  background:var(--secondary);
+  color:var(--highlight);
+}
+.badge-category__wrapper .badge-category:before{
+  border-radius:0.25rem
+}
+.sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
+  border-radius:0.313rem
+}
+.d-header{
+  box-shadow:none;
+  border-bottom:var(--line-m) solid var(--primary-low)
+}
+.header-sidebar-toggle button .d-icon {
+  color: var(--primary);
+}
+img.avatar {
+  border: var(--radius-s) solid var(--primary);
+  background:var(--primary);
+}
 .sidebar-wrapper .sidebar-container {
   border-right:none;
 }
@@ -50,8 +68,16 @@ body{
     margin:0;
   }
 }
+/* Blocs Accueil / version link */
+.custom-category-boxes:not(.above-discovery-categories-outlet) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  .category-box {
+    @extend %blocshine;
+    
+  }
+}
 
-
+/* SAVE - Blocs Accueil / version table */
 .categories-and-latest{
   display:block;
   .column.categories {
@@ -79,23 +105,7 @@ body{
 }
 
 
-.badge-category__wrapper .badge-category:before{
-  border-radius:0.25rem
-}
-.sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
-  border-radius:0.313rem
-}
-.d-header{
-  box-shadow:none;
-  border-bottom:var(--line-m) solid var(--primary-low)
-}
-.header-sidebar-toggle button .d-icon {
-  color: var(--primary);
-}
-img.avatar {
-  border: var(--radius-s) solid var(--primary);
-  background:var(--primary);
-}
+
 .list-controls .combo-box .combo-box-header {
     background: var(--primary);
     border: 1px solid var(--primary);
