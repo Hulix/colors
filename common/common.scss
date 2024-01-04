@@ -77,12 +77,6 @@ img.avatar {
     .category-box {
       @extend %blocshine;
       border: 0.313rem solid var(--primary);
-      .category-box-heading h3{
-        color:var(--secondary-high);
-      }
-      .description p{
-          color:var(--secondary-darker);
-      }
       .category-logo.no-logo-present{
         width:3rem;
         .category-abbreviation {
