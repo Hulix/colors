@@ -71,7 +71,7 @@ img.avatar {
 /* Blocs Accueil / version link */
 .custom-category-boxes:not(.above-discovery-categories-outlet) {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap:var(--space-m)
+  gap:var(--space-m);
   .category-box-inner{
     gap:3rem;
     .category-box {
