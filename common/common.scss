@@ -167,13 +167,23 @@ img.avatar {
 .latest-topic-list .table-heading{
   color:var(--primary);
   font-size:var(--w11);
-  font-weight:900;
+  font-weight:bold;
 }
 .latest-topic-list-item, .table-heading {
     @extend %border-bs;
 }
 
 /* Fix home filters */
+
+
+.navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
+  padding:0;
+  background:transparent;
+  color:var(--primary);
+  font-size:var(--w11);
+  font-weight:900;
+}
+
 .navigation-categories.categories-list .navigation-container > ol.category-breadcrumb.ember-view,
 .navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
   display:none;
