@@ -79,6 +79,11 @@ img.avatar {
       gap:1.5rem;
       .category-box-heading h3{
         color:var(--secondary-high);
+        &:before{
+          content:'💬';
+          display:block;
+          font-size:3rem;
+        }
       }
       .description p{
           color:var(--secondary-high);
