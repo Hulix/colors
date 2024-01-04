@@ -163,6 +163,9 @@ img.avatar {
 }
 
 /* Topics */
+.latest-topic-list .table-heading{
+  color:var(--primary);
+}
 .latest-topic-list-item, .table-heading {
     @extend %border-bs;
 }
