@@ -1,8 +1,8 @@
-
 :root{
-  font-size:16px;
   /* Fix */
-  --heading-font-family:var(--fontlgm);
+  --font-family:'PPTelegraf-Regular';
+  --font-ultra:'PPTelegraf-Ultrabold';
+  --heading-font-family:var(--font-ultra);
   --d-sidebar-link-color: var(--primary);
   --d-sidebar-link-icon-color: var(--primary);
   --d-sidebar-highlight-background:var(--secondary-low);
@@ -22,7 +22,7 @@
   --w12: 3.75rem; /* 60px */
   
   /* Tools */
-  --fontlgm:'PPTelegraf-Regular';
+  --fontlgm:
   --radius-s: var(--w2);
   --radius-m: var(--w3);
   --radius-l: var(--w4);
@@ -52,10 +52,23 @@
 }
 
 /* Général */
-body {
-    font-family: PPTelegraf-Regular;
-    font-size: 1rem;
+@font-face {
+  font-family: PPTelegraf-Regular;
+  src: url($PPTelegraf-Regular) format('woff2');
 }
+@font-face {
+  font-family: PPTelegraf-Ultrabold;
+  src: url($PPTelegraf-Ultrabold) format('woff2');
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+} 
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-ultra);
+}
+
 .btn{
   background:var(--secondary);
   color:var(--highlight);
