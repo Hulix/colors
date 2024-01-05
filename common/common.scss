@@ -251,7 +251,7 @@ img.avatar {
   @extend %ultra;
 }
 .navigation-categories .list-container, .categories-list .list-container {
-    padding-top: calc(var(--space-m) - var(--nav-space));
+    padding-top: calc(var(--space-m) - var(--w6));
 }
 .navigation-categories.categories-list .navigation-container > ol.category-breadcrumb.ember-view,
 .navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
