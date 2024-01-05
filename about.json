@@ -8,6 +8,8 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "PPTelegraf-Regular": "assets/PPTelegraf-Regular.woff2",
+    "PPTelegraf-Ultrabold": "assets/PPTelegraf-Ultrabold.woff2"
   },
   "color_schemes": {
     "LGM_reverse": {
