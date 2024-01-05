@@ -96,6 +96,7 @@ img.avatar {
 .wrap.welcome-link-banner{
   padding:0;
 }
+
 /* Bannière accueil */
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
   margin:0 0 var(--space-l) 0;
@@ -103,6 +104,12 @@ img.avatar {
   .welcome-wrapper{
     background:inherit;
     margin:0;
+    .welcome-content{
+      max-width:700px;
+    }
+    .featured-banner-link{
+      max-width:300px;
+    }
   }
 }
 /* Blocs Accueil / version link */
