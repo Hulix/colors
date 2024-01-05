@@ -85,8 +85,13 @@ h1,h2,h3,h4,h5,h6{
 .badge-category__wrapper .badge-category:before{
   border-radius:0.25rem
 }
+/*
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
   border-radius:0.313rem
+}
+*/
+.sidebar-section-link-wrapper .sidebar-section-link.active {
+  border-radius:var(--w3);	
 }
 .d-header{
   box-shadow:none;
