@@ -250,7 +250,9 @@ img.avatar {
   font-size:var(--font-up-4);
   @extend %ultra;
 }
-
+.navigation-categories .list-container, .categories-list .list-container {
+    padding-top: var(--space-m);
+}
 .navigation-categories.categories-list .navigation-container > ol.category-breadcrumb.ember-view,
 .navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
   display:none;
