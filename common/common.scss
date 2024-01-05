@@ -111,6 +111,9 @@ img.avatar {
 .wrap.welcome-link-banner{
   padding:0;
 }
+.sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span{
+  border-radius:var(--radius-s);
+}
 
 /* Bannière accueil */
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
@@ -126,7 +129,7 @@ img.avatar {
         position:relative;
         &:after{
           content:'';
-          margin-top:-1.5rem;
+          margin-top:-2.5rem;
           width:3rem;height:3rem;
           top:0;
           position:absolute;
