@@ -112,6 +112,9 @@ img.avatar {
     }
     .featured-banner-link{
       max-width:300px;
+      p{
+        font-size:var(--font-up-1);
+      }
     }
   }
 }
