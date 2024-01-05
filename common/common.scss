@@ -117,10 +117,13 @@ img.avatar {
       max-width:700px;
       h2{
         font-size:var(--font-up-6);
+        position:relative;
         &:after{
           content:'';
           width:3rem;
-          height:auto;
+          height:3rem;
+          position:absolute;
+          top:0;right:0;
           background-image: url($etoiles);
           @extend %imago;
         }
