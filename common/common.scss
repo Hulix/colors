@@ -414,9 +414,6 @@ img.avatar {
 
 /* Footer */
 
-body.has-sidebar-page #main-outlet-wrapper {
-  border: var(--w1) solid var(--secondary-low);
-}
 .custom-footer {
   position:relative;
   background: var(--secondary-low);
@@ -427,6 +424,7 @@ body.has-sidebar-page #main-outlet-wrapper {
     top:0;left:0;right:0;
     width:100%;
     margin-top:calc(var(--3) + 5px); 
+    background:var(--secondary-low);
   }
   .flexbox {
     color:var(--primary);
