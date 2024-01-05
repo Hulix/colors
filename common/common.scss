@@ -115,12 +115,16 @@ img.avatar {
       }
       p{
         font-size:var(--font-up-1);
+        max-width:500px;
       }
     }
     .featured-banner-link{
+      padding-top: var(--w5);
       max-width:300px;
       background-image: url($wahou);
       background-size: contain;
+      background-repeat:no-repeat;
+      background-position:center center;
     }
   }
 }
