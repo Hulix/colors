@@ -218,6 +218,9 @@ img.avatar {
 .latest-topic-list-item .main-link a.title{
   @extend %ultra;
 }
+.latest-topic-list-item .topic-stats, .latest-topic-list-item .topic-last-activity a {
+  color:inherit;
+}
 
 
 
