@@ -182,7 +182,7 @@ img.avatar {
     }    
   }
 }
-.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth:(2) {
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(3) {
   .category-box-inner {
     .category-details{
       .category-box-heading {
