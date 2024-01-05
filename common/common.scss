@@ -255,7 +255,9 @@ img.avatar {
 .navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
   display:none;
 }
-
+.navigation-categories .navigation-container, .categories-list .navigation-container {
+    border-bottom: none;
+}
 .navigation-categories.categories-list .navigation-container > #navigation-bar {
   margin-right:var(--w8);
 }
