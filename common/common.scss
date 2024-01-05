@@ -290,6 +290,7 @@ img.avatar {
   .table-heading{
     font-size:var(--font-up-4);
     @extend %ultra;
+    @extend %border-bs;
   }
   .latest-topic-list-item{
     padding: var(--w8) 1em;
