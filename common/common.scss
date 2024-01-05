@@ -255,4 +255,33 @@ img.avatar {
 .navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
   display:none;
 }
+/**/
+
+.navigation-container {
+	// Category + Tag Drop Down
+  .select-kit.combo-box {
+    .select-kit-header {
+      border-radius: .9em;
+      background-color: var(--header_background);
+    }
+
+    &.category-drop,
+    &.tag-drop {
+      .select-kit-body {
+        border-radius: .9em;
+        background-color: var(--header_background);
+  
+        .select-kit-collection {
+          background-color: var(--header_background);
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+        }
+
+        .select-kit-filter {
+          border-top: 0px;
+        }
+      }
+    }
+  }
+}
 
