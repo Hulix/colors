@@ -255,6 +255,11 @@ img.avatar {
 .navigation-categories.categories-list .navigation-container .nav-item_latest.latest.ember-view{
   display:none;
 }
+
+.navigation-categories.categories-list .navigation-container #navigation-bar {
+  margin-right:var(--w8);
+}
+
 /**/
 
 .navigation-container {
@@ -296,9 +301,9 @@ img.avatar {
 
   &:hover {
     background-color: var(--tertiary-low);
-    color: var(--primary);
+    color: var(--highlight);
     .d-icon {
-      color: var(--primary);
+      color: var(--highlight);
     }
   }
 
@@ -309,6 +314,9 @@ img.avatar {
 }
 .discourse-no-touch .btn-default:hover{
   background-color: var(--tertiary-low);
-  color: var(--primary);
+  color: var(--highlight);
+}
+.discourse-no-touch .btn:hover .d-icon{
+  color: var(--highlight);
 }
 
