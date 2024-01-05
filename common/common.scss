@@ -398,3 +398,9 @@ img.avatar {
     color: var(--t-contraste);
   }
 }
+.custom-footer {
+  background: var(--secondary-low);
+  .flexbox {
+    color:var(--primary);
+  }
+}
