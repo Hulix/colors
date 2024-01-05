@@ -22,7 +22,6 @@
   --w12: 3.75rem; /* 60px */
   
   /* Tools */
-  --fontlgm:
   --radius-s: var(--w2);
   --radius-m: var(--w3);
   --radius-l: var(--w4);
@@ -141,7 +140,8 @@ img.avatar {
         }
       }
       .description p{
-          color:var(--secondary-high);
+        color:var(--secondary-high);
+        max-width:500px;
       }
       .category-logo.no-logo-present{
         width: calc(var(--w9) - var(--w3));
@@ -213,8 +213,8 @@ img.avatar {
   padding:0;
   background:transparent;
   color:var(--primary);
-  font-size:var(--w11);
-  font-weight:900;
+  font-size:var(--font-up-6);
+  font-weight:800;
 }
 
 .navigation-categories.categories-list .navigation-container > ol.category-breadcrumb.ember-view,
