@@ -2,6 +2,7 @@
 :root{
   font-size:16px;
   /* Fix */
+  --heading-font-family:var(--fontlgm);
   --d-sidebar-link-color: var(--primary);
   --d-sidebar-link-icon-color: var(--primary);
   --d-sidebar-highlight-background:var(--secondary-low);
@@ -21,6 +22,7 @@
   --w12: 3.75rem; /* 60px */
   
   /* Tools */
+  --fontlgm: PPTelegraf-Regular;
   --radius-s: var(--w2);
   --radius-m: var(--w3);
   --radius-l: var(--w4);
