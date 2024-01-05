@@ -114,6 +114,9 @@ img.avatar {
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span{
   border-radius:var(--radius-s);
 }
+.sidebar-section-link-wrapper {
+  padding-right: var(--w11);
+}
 
 /* Bannière accueil */
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
