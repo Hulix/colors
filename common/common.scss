@@ -54,6 +54,11 @@
 %border-bs{
   border-bottom:var(--line-s) solid var(--secondary-low)
 }
+%imago{
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
 
 /* Général */
 @font-face {
@@ -112,6 +117,13 @@ img.avatar {
       max-width:700px;
       h2{
         font-size:var(--font-up-6);
+        &:after{
+          content:'';
+          width:3rem;
+          height:auto;
+          background-image: url($etoiles);
+          @extend %imago;
+        }
       }
       p{
         font-size:var(--font-up-1);
@@ -122,9 +134,7 @@ img.avatar {
       padding-top: var(--w5);
       max-width:300px;
       background-image: url($wahou);
-      background-size: contain;
-      background-repeat:no-repeat;
-      background-position:center center;
+      @extend %imago;
     }
   }
 }
