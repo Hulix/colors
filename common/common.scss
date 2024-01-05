@@ -111,12 +111,16 @@ img.avatar {
 .wrap.welcome-link-banner{
   padding:0;
 }
+.header-sidebar-toggle button {
+    margin-right: 0.5rem;
+}
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span{
   border-radius:var(--radius-s);
 }
 .sidebar-section-link-wrapper {
   padding-right: var(--w11);
 }
+
 
 /* Bannière accueil */
 .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper{
@@ -407,8 +411,15 @@ img.avatar {
     color: var(--t-contraste);
   }
 }
+
+/* Footer */
+
+body.has-sidebar-page #main-outlet-wrapper {
+  border: var(--w1) solid var(--secondary-low);
+}
 .custom-footer {
   background: var(--secondary-low);
+  border: var(--w3) solid var(--secondary);
   .flexbox {
     color:var(--primary);
   }
