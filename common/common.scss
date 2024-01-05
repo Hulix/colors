@@ -211,11 +211,12 @@ img.avatar {
     @extend %ultra;
   }
   .latest-topic-list-item{
+    padding: var(--w8) 1em;
     @extend %border-bs;
-    .latest-topic-list a.title{
-      @extend %ultra;
-    }
   }
+}
+.latest-topic-list-item .main-link a.title{
+  @extend %ultra;
 }
 
 
