@@ -307,4 +307,8 @@ img.avatar {
     padding: 10px 12px;
   }
 }
+.discourse-no-touch .btn:hover{
+  background-color: var(--tertiary-low);
+  color: var(--primary);
+}
 
