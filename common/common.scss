@@ -428,5 +428,8 @@ img.avatar {
   }
   .flexbox {
     color:var(--primary);
+    .blurbs, .links, .footer-section-link{
+      color:var(--primary);
+    }
   }
 }
