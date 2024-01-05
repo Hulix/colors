@@ -395,6 +395,7 @@ img.avatar {
   color: var(--highlight);
 }
 .d-header-mode .bootstrap-mode {
+    font-family:var(--font-family);
     background-color: var(--primary);
     color: var(--t-contraste);
     border: 1px solid var(--primary);
