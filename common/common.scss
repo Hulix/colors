@@ -182,6 +182,18 @@ img.avatar {
     }    
   }
 }
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+  .category-box-inner {
+    .category-details{
+      .category-box-heading {
+        &:before{
+        content:'coucou';
+        }
+      }
+    }
+  }
+}
+
 
 /* SAVE - Blocs Accueil / version table */
 .categories-and-latest{
