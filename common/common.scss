@@ -119,6 +119,8 @@ img.avatar {
     }
     .featured-banner-link{
       max-width:300px;
+      background-image: url($wahou);
+      background-size: contain;
     }
   }
 }
