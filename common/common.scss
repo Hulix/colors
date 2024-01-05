@@ -160,7 +160,7 @@ img.avatar {
         padding:var(--w7);
         .category-box-heading {
           &:before{
-            content:'💬';
+            content:'🔒';
             display:block;
             font-size:2rem;
           }
@@ -180,6 +180,17 @@ img.avatar {
         }
       }
     }    
+  }
+}
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(1) {
+  .category-box-inner {
+    .category-details{
+      .category-box-heading {
+        &:before{
+        content:'💬';
+        }
+      }
+    }
   }
 }
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(2) {
@@ -374,4 +385,12 @@ img.avatar {
 .discourse-no-touch .btn:hover .d-icon{
   color: var(--highlight);
 }
-
+.d-header-mode .bootstrap-mode {
+    background-color: var(--primary);
+    color: var(--t-contraste);
+    margin-left: 1em;
+    padding: 0.15em 0.5em;
+    &:hover {
+    background-color: var(--highlight);
+  }
+}
