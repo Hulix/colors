@@ -388,9 +388,12 @@ img.avatar {
 .d-header-mode .bootstrap-mode {
     background-color: var(--primary);
     color: var(--t-contraste);
+    border: 1px solid var(--primary);
+    border-radius:var(--w2);
     margin-left: 1em;
     padding: 0.15em 0.5em;
     &:hover {
     background-color: var(--highlight);
+    color: var(--t-contraste);
   }
 }
