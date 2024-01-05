@@ -33,6 +33,11 @@
 }
 
 /* Héritages étendus */
+%ultra{
+  font-family:var(--font-ultra);
+  color:var(--primary);
+  font-weight: 800;
+}
 %blocshine{
   background:var(--primary);
   border-radius: var(--radius-l);
@@ -199,26 +204,28 @@ img.avatar {
   margin-top : calc(var(--space-l) - var(--w6));
 }
 /* Topics */
-.latest-topic-list .table-heading{
-  color:var(--primary);
-  font-size:var(--w11);
+
+.latest-topic-list {
+  .table-heading{
+    font-size:var(--font-up-4);
+    @extend %ultra;
+  }
+  .latest-topic-list-item{
+    @extend %border-bs;
+    .latest-topic-list a.title{
+      @extend %ultra;
+    }
+  }
 }
-.latest-topic-list-item, .table-heading {
-  @extend %border-bs;
-}
-.latest-topic-list a.title{
-  font-family:var(--font-ultra);
-  font-weight:800;
-}
+
+
 
 /* Fix home filters */
 .navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
   padding:0;
   background:transparent;
-  color:var(--primary);
   font-size:var(--font-up-4);
-  font-family:var(--font-ultra);
-  font-weight:800;
+  @extend %ultra;
 }
 
 .navigation-categories.categories-list .navigation-container > ol.category-breadcrumb.ember-view,
