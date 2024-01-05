@@ -361,7 +361,7 @@ img.avatar {
   color: var(--highlight);
   border-radius: var(--w4);
   border: 1px solid var(--tertiary);
-
+  @extend %ultra;
   .d-icon {
     color: var(--highlight);
   }
