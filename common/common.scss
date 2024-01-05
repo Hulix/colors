@@ -30,6 +30,7 @@
   --space-m: var(--w10);
   --space-l: var(--w12);
   --shadow-card: none;
+  --t-contraste: #1B1326;
 }
 
 /* Héritages étendus */
@@ -201,7 +202,7 @@ img.avatar {
             color:var(--secondary-high);
           }
           .category-description{
-            color:var(--secondary-vhigh);
+            color:var(--t-contraste);
           }
         }
       }
