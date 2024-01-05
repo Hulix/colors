@@ -417,7 +417,7 @@ img.avatar {
 .custom-footer {
   position:relative;
   background: var(--secondary-low);
-  border: var(--w3) solid var(--secondary);
+  border: var(--w3) solid var(--secondary-low);
   &:before{
     content:'';
     position:absolute;
