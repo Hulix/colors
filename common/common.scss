@@ -303,7 +303,9 @@ img.avatar {
 .latest-topic-list-item .topic-stats, .latest-topic-list-item .topic-last-activity a {
   color:inherit;
 }
-
+.latest-topic-list-item .main-link .top-row {
+    font-size: var(--font-0);
+}
 
 
 /* Fix home filters */
