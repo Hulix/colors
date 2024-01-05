@@ -182,12 +182,13 @@ img.avatar {
     }    
   }
 }
-.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth:(2) {
   .category-box-inner {
     .category-details{
       .category-box-heading {
         &:before{
         content:'coucou';
+	color:black;
         }
       }
     }
