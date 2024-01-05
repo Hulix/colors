@@ -202,10 +202,13 @@ img.avatar {
 .latest-topic-list .table-heading{
   color:var(--primary);
   font-size:var(--w11);
-  font-weight:bold;
 }
 .latest-topic-list-item, .table-heading {
-    @extend %border-bs;
+  @extend %border-bs;
+}
+.latest-topic-list a.title{
+  font-family:var(--font-ultra);
+  font-weight:800;
 }
 
 /* Fix home filters */
@@ -213,7 +216,7 @@ img.avatar {
   padding:0;
   background:transparent;
   color:var(--primary);
-  font-size:var(--font-up-5);
+  font-size:var(--font-up-4);
   font-family:var(--font-ultra);
   font-weight:800;
 }
