@@ -1,4 +1,4 @@
-:root{
+t:root{
   /* Fix */
   --font-family:'PPTelegraf-Regular';
   --font-ultra:'PPTelegraf-Ultrabold';
@@ -284,18 +284,18 @@ img.avatar {
     }
   }
 }
-.btn {
-  background-color: var(--header_background);
-  color: var(--primary);
-  border-radius: 1.2em;
-  border: 1px solid var(--primary-low-mid);
+.btn-default {
+  background-color: var(--tertiary);
+  color: var(--highlight);
+  border-radius: var(--w4);
+  border: 1px solid var(--tertiary);
 
   .d-icon {
-    color: var(--primary);
+    color: var(--highlight);
   }
 
   &:hover {
-    background-color: var(--quaternary-low);
+    background-color: var(--tertiary-low);
     color: var(--primary);
     .d-icon {
       color: var(--primary);
