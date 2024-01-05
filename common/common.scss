@@ -418,8 +418,16 @@ body.has-sidebar-page #main-outlet-wrapper {
   border: var(--w1) solid var(--secondary-low);
 }
 .custom-footer {
+  position:relative;
   background: var(--secondary-low);
   border: var(--w3) solid var(--secondary);
+  &:before{
+    content:'';
+    position:absolute;
+    top:0;left:0;right:0;
+    width:100%;
+    margin-top:calc(var(--3) + 5px); 
+  }
   .flexbox {
     color:var(--primary);
   }
