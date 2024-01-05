@@ -417,13 +417,13 @@ img.avatar {
 .custom-footer {
   position:relative;
   background: var(--secondary-low);
-  border: var(--w3) solid var(--secondary-low);
+  border-top: var(--w3) solid var(--secondary-low);
   &:before{
     content:'';
     position:absolute;
     top:0;left:0;right:0;
     width:100%;height:5px;
-    margin-top:calc(var(--3) + 5px); 
+    margin-top:calc(var(--w3) + 5px); 
     background:var(--secondary);
   }
   .flexbox {
