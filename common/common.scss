@@ -318,7 +318,7 @@ img.avatar {
 }
 
 
-/* Fix home filters */
+/* Fix home filters & sidebar */
 .navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
   padding:0;
   background:transparent;
@@ -337,6 +337,9 @@ img.avatar {
 }
 .navigation-categories.categories-list .navigation-container > #navigation-bar {
   margin-right:var(--w8);
+}
+.sidebar-section-link-wrapper:first-child {
+  display:none;
 }
 
 /**/
