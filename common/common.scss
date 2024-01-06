@@ -6,6 +6,10 @@
     --d-sidebar-link-color: var(--primary);
     --d-sidebar-link-icon-color: var(--primary);
     --d-sidebar-highlight-background:var(--secondary-low);
+    --d-input-text-color:var(--primary);
+    --d-input-bg-color:var(--secondary);
+    --d-input-border:var(--primary);
+    --d-input-border-radius:var(--w4);
     /* Sizes */
     --w0: 0rem; /* 0px */
     --w1: 0.125rem; /* 2px */
@@ -436,6 +440,25 @@
       background-color: var(--highlight);
       color: var(--t-contraste);
     }
+  }
+
+  /* Modal */
+  .d-modal__container{
+    border-radius:var(--w9);
+    border:var(--w4) solid var(--secondary-low);
+    .d-modal__header .btn{
+    
+    }
+    .d-modal__body{
+      .login-left-side{
+
+      }
+      .login-right-side{
+        width:50%;
+        background:var(--secondary-low);
+      }
+    }
+
   }
   
   /* Footer */
