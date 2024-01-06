@@ -107,10 +107,10 @@
   }
   
   .btn{
-    border-radius:{var(--w2)};
+    border-radius:var(--w2);
   }
   .btn-large{
-    border-radius:{var(--w4)};
+    border-radius:var(--w4);
   }
 
   .badge-category__wrapper .badge-category:before{
