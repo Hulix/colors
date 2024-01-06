@@ -8,7 +8,7 @@
     --d-sidebar-highlight-background:var(--secondary-low);
     --d-input-text-color:var(--primary);
     --d-input-bg-color:var(--secondary);
-    /*--d-input-border:var(--w1);*/
+    --d-input-border:var(--w1) solid var(--primary);
     --d-input-border-radius:var(--w4);
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -443,6 +443,9 @@
   }
 
   /* Modal */
+  .d-modal__backdrop {
+    background:var(--secondary-low);
+  }
   .d-modal__container{
     border-radius:var(--w9);
     border:var(--w4) solid var(--secondary-high);
