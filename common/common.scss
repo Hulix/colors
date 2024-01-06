@@ -545,8 +545,29 @@
     border-color: var(--primary);
   }
   
+
+/* Popover */
+.custom-gated-topic-container{
+  background:var(--secondary-low);
+  .custom-gated-topic-content{
+    .custom-gated-topic-content--header{
+      @extend %font-ultra;
+    }
+    .custom-gated-topic-content--text{
+
+    }
+    .custom-gated-topic-content--cta{
+      .custom-gated-topic-content--cta__signup{
+        @extend %btblanc;
+      }
+      .custom-gated-topic-content--cta__login{
+
+      }
+    }
+  }
+}
+
   /* Footer */
-  
   .custom-footer {
     position:relative;
     background: var(--secondary-low);
