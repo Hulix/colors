@@ -317,7 +317,7 @@
           @extend %ultra;
           font-size: var(--font-0);
         }
-        .topic-last-activity{
+        .topic-last-activity a{
           color:var(--primary)
         }
       }
@@ -331,7 +331,7 @@
         .posts-map{
           color:var(--primary-medium);
         }
-        .topic-last-activity{
+        .topic-last-activity a{
           color:var(--primary-medium);
         }
       }
