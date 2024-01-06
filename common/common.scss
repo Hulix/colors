@@ -8,7 +8,7 @@
     --d-sidebar-highlight-background:var(--secondary-low);
     --d-input-text-color:var(--primary);
     --d-input-bg-color:var(--secondary);
-    --d-input-border:var(--primary);
+    --d-input-border:var(--w1);
     --d-input-border-radius:var(--w4);
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -445,7 +445,7 @@
   /* Modal */
   .d-modal__container{
     border-radius:var(--w9);
-    border:var(--w4) solid var(--secondary-low);
+    border:var(--w4) solid var(--secondary-high);
     .d-modal__header .btn{
     
     }
@@ -455,7 +455,7 @@
       }
       .login-right-side{
         width:50%;
-        background:var(--secondary-low);
+        background:var(--secondary-high);
       }
     }
 
