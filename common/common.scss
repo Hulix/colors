@@ -316,6 +316,9 @@
         .posts-map{
           @extend %ultra;
           font-size: var(--font-0);
+          &:hover{
+            color: var(--tertiary);
+          }
         }
         .topic-last-activity a{
           color:var(--primary)
