@@ -64,6 +64,24 @@
     background-repeat:no-repeat;
     background-position:center center;
   }
+  %btviolet{
+    background-color: var(--tertiary);
+    color: var(--highlight);
+    border: 1px solid var(--tertiary);
+    &:hover{
+      background-color: var(--tertiary-low);
+      color: var(--highlight);
+      .d-icon {
+        color: var(--highlight);
+      }
+    }
+  }
+  %btblanc{
+    background-color: var(--primary);
+    color: var(--secondary-high);
+    border: 1px solid var(--primary);
+  }
+
   
   /* Général */
   @font-face {
@@ -101,10 +119,26 @@
   .d-header{
     box-shadow:none;
     @extend %border-bs;
+    .contents{
+      .header-sidebar-toggle button .d-icon {
+        color: var(--primary);
+      }
+      .title{
+        /*logo*/
+      }
+      .panel{
+        .header-buttons{
+          .btn-primary.sign-up-button{
+            @extend %btblanc;
+          }
+          .btn-primary.login-button{
+            @extend %btviolet;
+          }
+        }
+      }
+    }
   }
-  .header-sidebar-toggle button .d-icon {
-    color: var(--primary);
-  }
+
   img.avatar {
     border: var(--radius-s) solid var(--primary);
     background:var(--primary);
@@ -123,6 +157,9 @@
   }
   .sidebar-section-link-wrapper {
     padding-right: var(--w11);
+  }
+  .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus{
+    background-color: var(--secondary-low);
   }
   
   
