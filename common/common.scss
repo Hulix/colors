@@ -551,7 +551,7 @@
   background:var(--secondary-low);
   .custom-gated-topic-content{
     .custom-gated-topic-content--header{
-      @extend %font-ultra;
+      @extend %ultra;
     }
     .custom-gated-topic-content--text{
 
