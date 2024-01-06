@@ -524,6 +524,15 @@
         position:absolute;
         background-image: url($etoiles);
         @extend %imago;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+      }
+    }
+  }
+  .modal.d-modal.login-modal{
+    .d-modal__container{
+      .login-left-side{
+        width:75%;
       }
     }
   }
