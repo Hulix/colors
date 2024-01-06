@@ -514,12 +514,13 @@
   .modal.d-modal.create-account{
     .btn-primary{
       @extend %btblanc;
+      border-radius:var(--w4);
       position:relative;
       &:before{
         content:'';
         margin-top:-1rem;margin-left:-1rem;
         width:1.5rem;height:1.5rem;
-        top:0;
+        top:0;left:0;
         position:absolute;
         background-image: url($etoiles);
         @extend %imago;
