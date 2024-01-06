@@ -514,12 +514,25 @@
   .modal.d-modal.create-account{
     .btn-primary{
       @extend %btblanc;
+      position:relative;
+      &:before{
+        content:'';
+        margin-top:-1rem;margin-left:-1rem;
+        width:1.5rem;height:1.5rem;
+        top:0;
+        position:absolute;
+        background-image: url($etoiles);
+        @extend %imago;
+      }
     }
   }
 
   /* Inputs */
   .login-modal #login-form .input-group label.alt-placeholder, .login-modal #login-form .input-group .user-field.text label.control-label, .login-modal #login-form .input-group .user-field.dropdown label.control-label, .login-modal #login-form .input-group .user-field.multiselect label.control-label, .login-modal .login-form .input-group label.alt-placeholder, .login-modal .login-form .input-group .user-field.text label.control-label, .login-modal .login-form .input-group .user-field.dropdown label.control-label, .login-modal .login-form .input-group .user-field.multiselect label.control-label, .login-modal .invite-form .input-group label.alt-placeholder, .login-modal .invite-form .input-group .user-field.text label.control-label, .login-modal .invite-form .input-group .user-field.dropdown label.control-label, .login-modal .invite-form .input-group .user-field.multiselect label.control-label, .create-account #login-form .input-group label.alt-placeholder, .create-account #login-form .input-group .user-field.text label.control-label, .create-account #login-form .input-group .user-field.dropdown label.control-label, .create-account #login-form .input-group .user-field.multiselect label.control-label, .create-account .login-form .input-group label.alt-placeholder, .create-account .login-form .input-group .user-field.text label.control-label, .create-account .login-form .input-group .user-field.dropdown label.control-label, .create-account .login-form .input-group .user-field.multiselect label.control-label, .create-account .invite-form .input-group label.alt-placeholder, .create-account .invite-form .input-group .user-field.text label.control-label, .create-account .invite-form .input-group .user-field.dropdown label.control-label, .create-account .invite-form .input-group .user-field.multiselect label.control-label, .invites-show #login-form .input-group label.alt-placeholder, .invites-show #login-form .input-group .user-field.text label.control-label, .invites-show #login-form .input-group .user-field.dropdown label.control-label, .invites-show #login-form .input-group .user-field.multiselect label.control-label, .invites-show .login-form .input-group label.alt-placeholder, .invites-show .login-form .input-group .user-field.text label.control-label, .invites-show .login-form .input-group .user-field.dropdown label.control-label, .invites-show .login-form .input-group .user-field.multiselect label.control-label, .invites-show .invite-form .input-group label.alt-placeholder, .invites-show .invite-form .input-group .user-field.text label.control-label, .invites-show .invite-form .input-group .user-field.dropdown label.control-label, .invites-show .invite-form .input-group .user-field.multiselect label.control-label {
     color:var(--primary)
+  }
+  .select-kit.multi-select .multi-select-header{
+    border-color: var(--primary);
   }
   
   /* Footer */
