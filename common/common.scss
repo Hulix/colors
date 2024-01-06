@@ -68,6 +68,7 @@
     background-color: var(--tertiary);
     color: var(--highlight);
     border: 1px solid var(--tertiary);
+    border-radius:var(--w2)
     &:hover{
       background-color: var(--tertiary-low);
       color: var(--highlight);
@@ -80,6 +81,7 @@
     background-color: var(--primary);
     color: var(--secondary-high);
     border: 1px solid var(--primary);
+    border-radius:var(--w2)
   }
 
   
@@ -102,8 +104,7 @@
   }
   
   .btn{
-    background:var(--secondary);
-    color:var(--highlight);
+    @extend %ultra;
   }
   .badge-category__wrapper .badge-category:before{
     border-radius:0.25rem
