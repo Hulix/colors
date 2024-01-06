@@ -315,6 +315,10 @@
         color:inherit;
         .posts-map{
           @extend %ultra;
+          font-size: var(--font-0);
+        }
+        .topic-last-activity{
+          color:var(--primary)
         }
       }
     }
@@ -322,6 +326,15 @@
  
   .latest-topic-list-item.visited {
       color:var(--primary-medium);
+      .topic-stats {
+        color:var(--primary-medium);
+        .posts-map{
+          color:var(--primary-medium);
+        }
+        .topic-last-activity{
+          color:var(--primary-medium);
+        }
+      }
   }
   
   
