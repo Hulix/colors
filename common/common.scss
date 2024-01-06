@@ -68,7 +68,10 @@
     background-color: var(--tertiary);
     color: var(--highlight);
     border: 1px solid var(--tertiary);
-    border-radius:var(--w2)
+    border-radius:var(--w2);
+    .d-icon {
+        color: var(--highlight);
+    }
     &:hover{
       background-color: var(--tertiary-low);
       color: var(--highlight);
@@ -81,7 +84,7 @@
     background-color: var(--primary);
     color: var(--secondary-high);
     border: 1px solid var(--primary);
-    border-radius:var(--w2)
+    border-radius:var(--w2);
   }
 
   
