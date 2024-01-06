@@ -445,8 +445,12 @@
   /* Modal */
   .d-modal__backdrop {
     background:var(--secondary-low);
+    animation: none/*fade .3s forwards;*/;
+    filter: none;
+    opacity: 0.97;
   }
   .d-modal__container{
+    box-shadow:none;
     border-radius:var(--w9);
     border:var(--w4) solid var(--secondary-high);
     .d-modal__header .btn{
