@@ -107,8 +107,12 @@
   }
   
   .btn{
-    
+    border-radius:{var(--w2)};
   }
+  .btn-large{
+    border-radius:{var(--w4)};
+  }
+
   .badge-category__wrapper .badge-category:before{
     border-radius:0.25rem
   }
