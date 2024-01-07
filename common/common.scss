@@ -321,6 +321,49 @@
         }
       }
   }
+  .category-box-announcements{
+    .category-box-heading {
+        &:before{
+        content:'👀';
+        }
+      }
+  }
+  .category-box-events{
+    .category-box-heading {
+        &:before{
+        content:'🎙️';
+        }
+      }
+  }
+  .category-box-resources{
+    .category-box-heading {
+        &:before{
+        content:'📚';
+        }
+      }
+  }
+  .category-box-staff{
+    .category-box-heading {
+        &:before{
+        content:'🔒';
+        }
+      }
+  }
+  .category-box-experts{
+    .category-box-heading {
+        &:before{
+        content:'☎️';
+        }
+      }
+  }
+  .category-box-le-gratin{
+    .category-box-heading {
+        &:before{
+        content:'🔒';
+        }
+      }
+  }
+
   /*
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(1) {
     .category-box-inner {
