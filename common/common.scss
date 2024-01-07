@@ -475,9 +475,25 @@
   .timeline-container .topic-timeline .timeline-scrollarea {
     border-left: 4px solid var(--secondary-low);
     .timeline-handle {
-        border-radius: 0.8em;
-        width: 0.35em;
+        width: 0.5em;
         background-color: var(--secondary-low);
+    }
+  }
+  .topic-post{
+    .names span a {
+        color: var(--primary);
+        @extend %ultra;
+    }
+    .topic-map{
+        border: none;
+        .map.map-collapsed{
+          border-top: var(--w2) solid var(--secondary-low);
+        }
+        .widget-button.btn{
+           border:none;
+           border-left: var(--w2) solid var(--secondary-low); 
+           background:transparent;
+        }
     }
   }
   
