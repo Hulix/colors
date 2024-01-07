@@ -626,6 +626,7 @@
   }
 
 /* Navpils */
+/*
 .nav-pills {
     & > li a {
       padding: 0;
@@ -646,6 +647,7 @@
       }
     }
   }
+  */
 
   /* Modal */
   .d-modal__backdrop {
@@ -718,7 +720,7 @@
 
     }
     .custom-gated-topic-content--cta{
-      .custom-gated-topic-content--cta__signup{
+      .custom-gated-topic-content--cta__signup .btn-primary{
         @extend %btblanc;
       }
       .custom-gated-topic-content--cta__login{
