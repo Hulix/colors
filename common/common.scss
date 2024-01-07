@@ -165,7 +165,7 @@
   a:visited{
   color: var(--quaternary);
   }
-  .btn{
+  .btn, .nav-pills>li a.active{
     border-radius:var(--w4);
   }
   .btn-large{
@@ -656,6 +656,14 @@
   }
 
 /* Navpils */
+.nav-pills>li>a, .nav-pills>li button {
+  border-radius:var(--w4);
+}
+.nav-pills>li>a:hover, .nav-pills>li button:hover {
+    color: var(--quaternary);
+    background-color: var(--seconday-low);
+}
+
 /*
 .nav-pills {
     & > li a {
