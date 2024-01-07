@@ -523,6 +523,9 @@
         }
     }
   }
+  .topic-map section {
+   border:none;
+}
 
   .topic-status-info, .topic-timer-info{
     @extend %border-ts;
@@ -660,7 +663,7 @@
   border-radius:var(--w4);
 }
 .nav-pills>li>a:hover, .nav-pills>li button:hover {
-    color: var(--quaternary);
+    color: var(--highlight);
     background-color: var(--secondary-low);
 }
 .nav-pills>li a.active, .nav-pills>li button.active {
