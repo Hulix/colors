@@ -78,7 +78,7 @@
   aside.onebox {
     border:none;
     margin: 2em 0;
-    padding: 0 1em;
+    padding: 0 2em;
     position:relative;
     &:before{
       content:'';
@@ -135,6 +135,10 @@
     border-color:transparent;
     color: var(--quaternary);
   }
+  %aa{
+    color: var(--quaternary);
+  }
+
 
 
   
@@ -451,7 +455,7 @@
       }
   }
   /* Topics articles */
-  .topic-body {
+  .topic-body, .topic-avatar{
     @extend %border-ts;
   }
   .topic-list-item, tr {
@@ -461,6 +465,9 @@
     .btn-default:not(.create),.dropdown-select-box{
       @extend %btsoft;
     }
+  }
+  .average-ratings .rating-count a {
+    @extend %aa;
   }
   
   
@@ -539,7 +546,6 @@
     color: var(--highlight);
     border-radius: var(--w4);
     border: 1px solid var(--tertiary);
-    @extend %ultra;
     .d-icon {
       color: var(--highlight);
     }
