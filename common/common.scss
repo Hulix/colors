@@ -175,9 +175,10 @@
   .header-sidebar-toggle button {
       margin-right: 0.5rem;
   }
-  .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span{
+  .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span, .sidebar-row {
     border-radius:var(--radius-s);
   }
+  /*.sidebar-section-link-wrapper*/
   .sidebar-sections {
     padding-right: var(--w11);
   }
