@@ -138,6 +138,9 @@
     }
   }
 
+  .badge-category__wrapper .badge-category__name{
+  color: var(--secondary-high);
+  }
   .badge-category__wrapper .badge-category:before{
     border-radius:0.25rem
   }
