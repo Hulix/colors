@@ -138,12 +138,7 @@
     }
   }
 
-  .badge-category__wrapper .badge-category__name{
-  color: var(--secondary-high);
-  }
-  .badge-category__wrapper .badge-category:before{
-    border-radius:0.25rem
-  }
+
   /*
   .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
     border-radius:0.313rem
@@ -472,6 +467,12 @@
       }
     }
   }
+  .select-kit-header-wrapper .badge-category__wrapper .badge-category__name{
+    color: var(--secondary-high);
+    }
+    .badge-category__wrapper .badge-category:before{
+      border-radius:0.25rem
+    }
   .select-kit.combo-box.category-drop .select-kit-row[data-value=all-categories], .select-kit.combo-box.category-drop .select-kit-row[data-value=no-categories] {
     color: var(--quaternary);
   }
