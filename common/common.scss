@@ -377,61 +377,6 @@
     }
   }
   */
-  .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(2) {
-    .category-box-inner {
-      .category-details{
-        .category-box-heading {
-          &:before{
-          content:'👀';
-          }
-        }
-      }
-    }
-  }
-  .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(3) {
-    .category-box-inner {
-      .category-details{
-        .category-box-heading {
-          &:before{
-          content:'🎙️';
-          }
-        }
-      }
-    }
-  }
-  .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(4) {
-    .category-box-inner {
-      .category-details{
-        .category-box-heading {
-          &:before{
-          content:'📚';
-          }
-        }
-      }
-    }
-  }
-  .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(5) {
-    .category-box-inner {
-      .category-details{
-        .category-box-heading {
-          &:before{
-          content:'🔒';
-          }
-        }
-      }
-    }
-  }
-  .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(6) {
-    .category-box-inner {
-      .category-details{
-        .category-box-heading {
-          &:before{
-          content:'☎️';
-          }
-        }
-      }
-    }
-  }
   
   
   /* SAVE - Blocs Accueil / version table */
