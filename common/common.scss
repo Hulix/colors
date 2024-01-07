@@ -363,7 +363,10 @@
         }
       }
   }
-
+  /* Sous-cat - page ressource */
+  #header-list-area .custom-category-boxes .category-box-inner .category-logo {
+    width: calc(var(--w9) - var(--w3));
+}
   /*
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(1) {
     .category-box-inner {
