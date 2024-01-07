@@ -129,6 +129,12 @@
   .btn-large{
     border-radius:var(--w4);
   }
+  .btn-primary {
+    color: var(--highlight);
+    .d-icon{
+      color: var(--highlight);
+    }
+  }
 
   .badge-category__wrapper .badge-category:before{
     border-radius:0.25rem
@@ -461,6 +467,15 @@
       }
     }
   }
+  .select-kit.combo-box.category-drop .select-kit-row[data-value=all-categories], .select-kit.combo-box.category-drop .select-kit-row[data-value=no-categories] {
+    color: var(--quaternary);
+  }
+  .navigation-container .select-kit.combo-box .select-kit-header {
+    border-radius: var(--w4);
+    background-color: var(--primary);
+    color:var(--secondary-high);
+  }
+
   .btn-default {
     background-color: var(--tertiary);
     color: var(--highlight);
@@ -599,6 +614,11 @@
 
     }
   }
+}
+
+/* Popover form */
+.open .grippie {
+    background: var(--secondary-high);
 }
 
 
