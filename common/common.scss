@@ -76,10 +76,18 @@
     border-top:/*var(--line-s)*/4px solid var(--secondary-low)
   }
   aside.onebox {
-    border-left: 7px solid var(--primary);
-    border-radius:3px;
-    margin: 1em 0;
+    border:none;
+    margin: 2em 0;
     padding: 0 1em;
+    position:relative;
+    &:before{
+      content:'';
+      border-radius:var(--w1);
+      width:7px;height:100%;
+      background:var(--primary);
+      top:0;left:0;
+      position:absolute;
+    }
   }
 
   %imago{
