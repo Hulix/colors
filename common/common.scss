@@ -486,8 +486,9 @@
     }
     .topic-map{
         border: none;
+        background:transparent;
         .map.map-collapsed{
-          border-top: var(--w2) solid var(--secondary-low);
+          border: var(--w2) solid var(--secondary-low);
         }
         .widget-button.btn{
            border:none;
