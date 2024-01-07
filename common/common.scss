@@ -437,18 +437,18 @@
       // Category + Tag Drop Down
     .select-kit.combo-box {
       .select-kit-header {
-        border-radius: var(--w2);
-        background-color: var(--primary);
+        border-radius: var(--w4);
+        background-color: var(--header_background);
       }
   
       &.category-drop,
       &.tag-drop {
         .select-kit-body {
-          border-radius: var(--w2);
-          background-color: var(--primary);
+          border-radius: var(--w4);
+          background-color: var(--header_background);
     
           .select-kit-collection {
-            background-color: var(--primary);
+            background-color: var(--header_background);
             border-top-left-radius: 0px;
             border-top-right-radius: 0px;
           }
