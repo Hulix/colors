@@ -14,6 +14,7 @@
     --d-hover:var(--secondary-low);
     --d-selected:var(--secondary-low);
     --category-badge-text-color:var(--secondary-high);
+    --d-content-background:var(--secondary-high);
     /* Sizes */
     --w0: 0rem; /* 0px */
     --w1: 0.125rem; /* 2px */
@@ -477,8 +478,8 @@
     color: var(--quaternary);
   }
   .select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
-    border:none;
-    outline: 0px;
+    border-color: transparent; 
+    outline: 2px solid transparent;
   }
   .navigation-container .select-kit.combo-box .select-kit-header {
     border-radius: var(--w4);
@@ -631,7 +632,11 @@
     background: var(--secondary-high);
 }
 
-
+/* Searchbox */
+.search-container {
+    box-shadow:none;
+    border-radius:var(--w9);
+}
 
   /* Footer */
   .custom-footer {
