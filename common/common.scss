@@ -446,6 +446,9 @@
       }
     }
   }
+  .topic-list-main-link, .latest-topic-list-item .main-link, .topic-list .main-link {
+    font-size: var(--font-0);
+}
  
   .latest-topic-list-item.visited {
       color:var(--primary-medium);
@@ -512,7 +515,9 @@
   .topic-status-info, .topic-timer-info{
     @extend %border-ts;
   }
-  
+  .gap {
+    color: var(--primary);
+  }
   
   /* Fix home filters & sidebar */
   .navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
