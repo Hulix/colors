@@ -180,6 +180,9 @@
       color: var(--highlight);
     }
   }
+  .discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
+    color: var(--highlight);
+  }
   .btn-default{
     @extend %btsoft;
   }
@@ -683,6 +686,7 @@
 /* Popover */
 .custom-gated-topic-container{
   background:var(--secondary-low);
+  border-top: var(--w9) solid var(--secondary-high);
   .custom-gated-topic-content{
     .custom-gated-topic-content--header{
       @extend %ultra;
