@@ -292,7 +292,7 @@
           padding:var(--w7);
           .category-box-heading {
             &:before{
-              content:'🔒';
+              /*content:'🔒';*/
               display:block;
               font-size:2rem;
             }
@@ -314,6 +314,14 @@
       }    
     }
   }
+  .category-box-discussions{
+    .category-box-heading {
+        &:before{
+        content:'💬';
+        }
+      }
+  }
+  /*
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(1) {
     .category-box-inner {
       .category-details{
@@ -325,6 +333,7 @@
       }
     }
   }
+  */
   .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(2) {
     .category-box-inner {
       .category-details{
