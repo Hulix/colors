@@ -86,6 +86,12 @@
     border: 1px solid var(--primary);
     border-radius:var(--w2);
   }
+  %bttext{
+    background-color: transparent;
+    border-color:transparent;
+    color: var(--primary);
+  }
+
 
   
   /* Général */
@@ -566,6 +572,24 @@
     }
   }
 }
+
+/* Alerte */
+.alert.alert-info {
+  background-color: var(--secondary-nosat);
+  .buttons{
+    .btn-primary{
+      @extend %btblanc;
+    }
+    .btn-text{
+      @extend %bttext;
+    }
+    a{
+        
+    }
+  }
+}
+
+
 
   /* Footer */
   .custom-footer {
