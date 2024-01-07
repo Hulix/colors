@@ -11,6 +11,7 @@
     --d-input-border:var(--w1) solid var(--primary);
     --d-input-border-radius:var(--w4);
     --primary-400:var(--primary);
+    --d-hover:var(--secondary-low);
     /* Sizes */
     --w0: 0rem; /* 0px */
     --w1: 0.125rem; /* 2px */
@@ -446,7 +447,7 @@
         .select-kit-body {
           border-radius: var(--w4);
           background-color: var(--header_background);
-    
+          border: 4px solid var(--secondary-low);
           .select-kit-collection {
             background-color: var(--header_background);
             border-top-left-radius: 0px;
