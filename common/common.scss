@@ -75,20 +75,6 @@
   %border-ts{
     border-top:/*var(--line-s)*/4px solid var(--secondary-low)
   }
-  aside.onebox {
-    border:none;
-    margin: 2em 0;
-    padding: 0 2em;
-    position:relative;
-    &:before{
-      content:'';
-      border-radius:var(--w1);
-      width:7px;height:100%;
-      background:var(--primary);
-      top:0;left:0;
-      position:absolute;
-    }
-  }
 
   %imago{
     background-size: contain;
@@ -139,7 +125,20 @@
     color: var(--quaternary);
   }
 
-
+  aside.onebox {
+    border:none;
+    margin: 2em 0;
+    padding: 0 2em;
+    position:relative;
+    &:before{
+      content:'';
+      border-radius:var(--w1);
+      width:7px;height:100%;
+      background:var(--primary);
+      top:0;left:0;
+      position:absolute;
+    }
+  }
 
   
   /* Général */
@@ -535,8 +534,7 @@
     display:none;
   }
   
-  /**/
-  
+  /* Dropdown filter */
   .navigation-container {
       // Category + Tag Drop Down
     .select-kit.combo-box {
@@ -581,6 +579,9 @@
     color:var(--secondary-high);
   }
 
+
+
+  /* btn */
   .btn-default {
     background-color: var(--tertiary);
     color: var(--highlight);
@@ -621,6 +622,28 @@
       &:hover {
       background-color: var(--highlight);
       color: var(--t-contraste);
+    }
+  }
+
+/* Navpils */
+.nav-pills {
+    & > li a {
+      padding: 0;
+      margin-right: 20px;
+      color: var(--tertiary-high);
+      border-bottom: 4px solid transparent;
+  
+      &.active {
+        color: var(--tertiary);
+        background-color: var(--secondary);
+        border-bottom: 4px solid var(--tertiary);
+      }
+  
+      &:hover {
+        color: var(--tertiary);
+        background-color: var(--secondary);
+        border-bottom: 4px solid var(--primary);
+      }
     }
   }
 
@@ -696,10 +719,10 @@
     }
     .custom-gated-topic-content--cta{
       .custom-gated-topic-content--cta__signup{
-        
+        @extend %btblanc;
       }
       .custom-gated-topic-content--cta__login{
-
+        @extend %aa;
       }
     }
   }
@@ -757,6 +780,10 @@
   }
   
 
+  /* Fix Discourse design */
+  .user-stream .notification.unread {
+    background-color: var(--secondary-nosat);
+}
 
   /* Display none */
   .user-field-profil-linkedin{
