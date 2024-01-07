@@ -496,6 +496,10 @@
            border-left: var(--w2) solid var(--secondary-low); 
            background:transparent;
         }
+        h4,a{
+           font-family: var(--font-family);
+           color:var(--primary)
+        }
     }
   }
   
