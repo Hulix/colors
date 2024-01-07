@@ -518,6 +518,11 @@
   .gap {
     color: var(--primary);
   }
+  nav.post-controls {
+    .reply{
+        @extend %btviolet;
+    }
+  }
   
   /* Fix home filters & sidebar */
   .navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
