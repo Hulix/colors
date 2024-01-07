@@ -476,6 +476,10 @@
   .select-kit.combo-box.category-drop .select-kit-row[data-value=all-categories], .select-kit.combo-box.category-drop .select-kit-row[data-value=no-categories] {
     color: var(--quaternary);
   }
+  .select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
+    border:none;
+    outline: 0px;
+  }
   .navigation-container .select-kit.combo-box .select-kit-header {
     border-radius: var(--w4);
     background-color: var(--primary);
