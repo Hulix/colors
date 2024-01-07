@@ -425,7 +425,7 @@
     .latest-topic-list-item, .topic-list-item {
       padding: var(--w8) 1em;
       @extend %border-bs;
-      .main-link .top-row {
+      .main-link .top-row, .link-top-line {
         font-size: var(--font-0);
       }
       a.title{
@@ -507,6 +507,10 @@
            color:var(--primary)
         }
     }
+  }
+
+  .topic-status-info, .topic-timer-info{
+    @extend %border-ts;
   }
   
   
