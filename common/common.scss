@@ -35,6 +35,7 @@
     --space-l: var(--w12);
     --shadow-card: none;
     --t-contraste: #1B1326;
+    --secondary-nosat:#453A58;
   }
   
   /* Héritages étendus */
@@ -111,7 +112,9 @@
   h1,h2,h3,h4,h5,h6{
     font-family: var(--font-ultra);
   }
-  
+  a{
+    color:var(--quaternary);
+  }
   .btn{
     border-radius:var(--w2);
   }
@@ -584,7 +587,7 @@
       @extend %bttext;
     }
     a{
-        
+
     }
   }
 }
