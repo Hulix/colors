@@ -416,13 +416,13 @@
     margin-top : calc(var(--space-l) - var(--w6));
   }
   /* Topics (accueil)*/
-  .latest-topic-list {
+  .latest-topic-list, .topic-list {
     .table-heading{
       font-size:var(--font-up-4);
       @extend %ultra;
       @extend %border-bs;
     }
-    .latest-topic-list-item{
+    .latest-topic-list-item, .topic-list-item {
       padding: var(--w8) 1em;
       @extend %border-bs;
       .main-link .top-row {
@@ -723,7 +723,7 @@
       .custom-gated-topic-content--cta__signup .btn-primary{
         @extend %btblanc;
       }
-      .custom-gated-topic-content--cta__login{
+      .custom-gated-topic-content--cta__login .d-button-label{
         @extend %aa;
       }
     }
