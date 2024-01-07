@@ -155,6 +155,9 @@
       color: var(--highlight);
     }
   }
+  .btn-default{
+    @extend %btsoft;
+  }
 
 
   /*
@@ -433,8 +436,8 @@
   .topic-list-item, tr {
     @extend %border-bs;
   }
-  .topic-footer-buttons{
-    .btn:not(.create),.dropdown-select-box{
+  #topic-footer-buttons{
+    .btn-default:not(.create),.dropdown-select-box{
       @extend %btsoft;
     }
   }
