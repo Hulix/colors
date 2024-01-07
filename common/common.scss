@@ -12,6 +12,7 @@
     --d-input-border-radius:var(--w4);
     --primary-50:var(--primary);--primary-100:var(--primary);--primary-200:var(--primary);--primary-300:var(--primary);--primary-400:var(--primary);--primary-500:var(--primary);--primary-600:var(--primary);--primary-700:var(--primary);--primary-800:var(--primary);--primary-900:var(--primary);
     --primary-very-low: var(--secondary-high);
+    --danger-medium:var(--danger)
     --d-hover:var(--secondary-low);
     --d-selected:var(--secondary-low);
     --category-badge-text-color:var(--secondary-high);
@@ -499,14 +500,14 @@
     }
   }
   .topic-post{
-    .names span a {
+    .names span a.first {
         color: var(--primary);
         @extend %ultra;
     }
     .topic-map{
         border: none;
         background:transparent;
-        .map /*.map-collapsed*/yyyop
+        .map /*.map-collapsed*/
         {
           border: var(--w2) solid var(--secondary-low);
           border-radius:var(--w4)
@@ -532,6 +533,7 @@
   nav.post-controls .actions button.create {
         @extend %btviolet;
     }
+
 .discourse-no-touch .sortable:hover, .discourse-no-touch .sortable:focus {
     background-color: var(--secondary-low);
     border-radius: 8px;
@@ -726,6 +728,14 @@
       }
     }
   }
+
+/* Masonry */
+.topic-thumbnails-grid .topic-list-item, .topic-thumbnails-masonry .topic-list-item, 
+.topic-thumbnails-grid .activity, .topic-thumbnails-grid .main-link, .topic-thumbnails-grid .posters, .topic-thumbnails-masonry .activity, .topic-thumbnails-masonry .main-link, .topic-thumbnails-masonry .posters {
+  background: transparent;
+  border:none;
+}
+    /* background-color: rgba(var(--primary-low-rgb), 0.85);
 
   /* Inputs */
   .login-modal #login-form .input-group label.alt-placeholder, .login-modal #login-form .input-group .user-field.text label.control-label, .login-modal #login-form .input-group .user-field.dropdown label.control-label, .login-modal #login-form .input-group .user-field.multiselect label.control-label, .login-modal .login-form .input-group label.alt-placeholder, .login-modal .login-form .input-group .user-field.text label.control-label, .login-modal .login-form .input-group .user-field.dropdown label.control-label, .login-modal .login-form .input-group .user-field.multiselect label.control-label, .login-modal .invite-form .input-group label.alt-placeholder, .login-modal .invite-form .input-group .user-field.text label.control-label, .login-modal .invite-form .input-group .user-field.dropdown label.control-label, .login-modal .invite-form .input-group .user-field.multiselect label.control-label, .create-account #login-form .input-group label.alt-placeholder, .create-account #login-form .input-group .user-field.text label.control-label, .create-account #login-form .input-group .user-field.dropdown label.control-label, .create-account #login-form .input-group .user-field.multiselect label.control-label, .create-account .login-form .input-group label.alt-placeholder, .create-account .login-form .input-group .user-field.text label.control-label, .create-account .login-form .input-group .user-field.dropdown label.control-label, .create-account .login-form .input-group .user-field.multiselect label.control-label, .create-account .invite-form .input-group label.alt-placeholder, .create-account .invite-form .input-group .user-field.text label.control-label, .create-account .invite-form .input-group .user-field.dropdown label.control-label, .create-account .invite-form .input-group .user-field.multiselect label.control-label, .invites-show #login-form .input-group label.alt-placeholder, .invites-show #login-form .input-group .user-field.text label.control-label, .invites-show #login-form .input-group .user-field.dropdown label.control-label, .invites-show #login-form .input-group .user-field.multiselect label.control-label, .invites-show .login-form .input-group label.alt-placeholder, .invites-show .login-form .input-group .user-field.text label.control-label, .invites-show .login-form .input-group .user-field.dropdown label.control-label, .invites-show .login-form .input-group .user-field.multiselect label.control-label, .invites-show .invite-form .input-group label.alt-placeholder, .invites-show .invite-form .input-group .user-field.text label.control-label, .invites-show .invite-form .input-group .user-field.dropdown label.control-label, .invites-show .invite-form .input-group .user-field.multiselect label.control-label {
