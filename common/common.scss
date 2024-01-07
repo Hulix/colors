@@ -176,6 +176,9 @@
     .d-icon{
       color: var(--highlight);
     }
+    &:hover{
+      color: var(--highlight);
+    }
   }
   .btn-default{
     @extend %btsoft;
@@ -487,7 +490,8 @@
     .topic-map{
         border: none;
         background:transparent;
-        .map.map-collapsed{
+        .map /*.map-collapsed*/yyyop
+        {
           border: var(--w2) solid var(--secondary-low);
           border-radius:var(--w4)
         }
@@ -688,7 +692,7 @@
     }
     .custom-gated-topic-content--cta{
       .custom-gated-topic-content--cta__signup{
-        @extend %btblanc;
+        
       }
       .custom-gated-topic-content--cta__login{
 
