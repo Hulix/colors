@@ -10,6 +10,7 @@
     --d-input-bg-color:var(--secondary);
     --d-input-border:var(--w1) solid var(--primary);
     --d-input-border-radius:var(--w4);
+    --primary-400:var(--primary);
     /* Sizes */
     --w0: 0rem; /* 0px */
     --w1: 0.125rem; /* 2px */
@@ -69,7 +70,7 @@
     background-color: var(--tertiary);
     color: var(--highlight);
     border: 1px solid var(--tertiary);
-    border-radius:var(--w2);
+    border-radius:var(--w4);
     .d-icon {
         color: var(--highlight);
     }
@@ -436,18 +437,18 @@
       // Category + Tag Drop Down
     .select-kit.combo-box {
       .select-kit-header {
-        border-radius: .9em;
-        background-color: var(--header_background);
+        border-radius: var(--w2);
+        background-color: var(--primary);
       }
   
       &.category-drop,
       &.tag-drop {
         .select-kit-body {
-          border-radius: .9em;
-          background-color: var(--header_background);
+          border-radius: var(--w2);
+          background-color: var(--primary);
     
           .select-kit-collection {
-            background-color: var(--header_background);
+            background-color: var(--primary);
             border-top-left-radius: 0px;
             border-top-right-radius: 0px;
           }
