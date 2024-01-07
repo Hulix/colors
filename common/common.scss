@@ -489,6 +489,7 @@
         background:transparent;
         .map.map-collapsed{
           border: var(--w2) solid var(--secondary-low);
+          border-radius:var(--w4)
         }
         .widget-button.btn{
            border:none;
