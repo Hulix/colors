@@ -522,7 +522,7 @@
   .topic-map section {
    border:none;
 }
-.names span a.first, names .fa {
+.names span a, .names .fa {
     color: var(--primary);
     @extend %ultra;
 }
