@@ -636,6 +636,9 @@
   }
   .btn-primary.create, button#create-topic.btn-default{
     background-color: var(--quaternary);
+    &:hover{
+      background-color: var(--quaternary-low);
+    }
   }
 
 
