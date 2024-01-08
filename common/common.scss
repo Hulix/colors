@@ -847,3 +847,20 @@
   .user-field-profil-linkedin{
     display:none;
   }
+
+  /* MOBILE */
+  @media (min-width: 640px) {
+    .wrap .welcome-link-banner{
+        .welcome-wrapper{
+          margin:0 auto;
+          .welcome-content{ 
+            h2{
+              font-size: var(--font-up-5);
+            }
+          } 
+          .featured-banner-link{
+            background:none;
+          }
+        }
+      }
+  }
