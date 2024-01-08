@@ -1,13 +1,11 @@
-.wrap .welcome-link-banner{
-  .welcome-wrapper{
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper .welcome-wrapper .welcome-wrapper{
     margin:0 auto;
     .welcome-content{ 
-      h2{
+    h2{
         font-size: var(--font-up-5);
-      }
+    }
     } 
     .featured-banner-link{
-      background:none;
+    background:none;
     }
-  }
 }
