@@ -866,3 +866,6 @@
   .btn-flat.btn-text{
     @extend %bttext;
   }
+  .user-menu.revamped .quick-access-panel li.unread, .user-menu.revamped .quick-access-panel li.pending {
+    background-color: var(--secondary-nosat);
+}
