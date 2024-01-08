@@ -860,3 +860,6 @@
     display:none;
   }
 
+  .btn-flat.btn-text{
+    @extend %bttext;
+  }
