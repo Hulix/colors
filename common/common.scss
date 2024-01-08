@@ -849,7 +849,7 @@
   }
 
   /* MOBILE */
-  @media (min-width: 640px) {
+  @media (max-width: 639px) {
     .wrap .welcome-link-banner{
         .welcome-wrapper{
           margin:0 auto;
