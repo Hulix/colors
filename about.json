@@ -1,47 +1,47 @@
 {
-  "name": "LGM_discourse",
-  "component": false,
-  "license_url": null,
-  "about_url": null,
-  "authors": null,
-  "theme_version": null,
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
-  "assets": {
-    "PPTelegraf-Regular": "assets/PPTelegraf-Regular.woff2",
-    "PPTelegraf-Ultrabold": "assets/PPTelegraf-Ultrabold.woff2",
-    "wahou": "assets/brand.png",
-    "etoiles": "assets/etoiles.svg"
-  },
-  "color_schemes": {
-    "LGM_reverse": {
-      "primary": "FAFAF5",
-      "secondary": "312448",
-      "tertiary": "AB4FF0",
-      "quaternary": "F19DFF",
-      "header_background": "312448",
-      "header_primary": "FAFAF5",
-      "highlight": "ffffff",
-      "danger": "FF645A",
-      "success": "3CC878",
-      "love": "FFB4B4",
-      "primary-low": "9F90BB",
-      "primary-medium": "fafaf5",
-      "primary-high": "ffffff",
-      "primary-low-mid": "c689f5",
-      "secondary-nosat":"453A58",
-      "secondary-low":"49376A",
-      "secondary-high": "231932",
-      "tertiary-low": "9F4AE0",
-      "highlight-high": "287DFF",
-      "highlight-medium": "ebebfa",
-      "highlight-low": "F5F5FA",
-      "selected": "ebebfa",
-      "hover": "ebebfa",
-      "secondary-vhigh": "1B1326"
-    }
-  },
-  "modifiers": {
-  },
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
-}
+    "name": "LGM_discourse",
+    "component": false,
+    "license_url": null,
+    "about_url": null,
+    "authors": null,
+    "theme_version": null,
+    "minimum_discourse_version": null,
+    "maximum_discourse_version": null,
+    "assets": {
+      "PPTelegraf-Regular": "assets/PPTelegraf-Regular.woff2",
+      "PPTelegraf-Ultrabold": "assets/PPTelegraf-Ultrabold.woff2",
+      "wahou": "assets/brand.png",
+      "etoiles": "assets/etoiles.svg"
+    },
+    "color_schemes": {
+      "LGM_reverse": {
+        "primary": "FAFAF5",
+        "secondary": "312448",
+        "tertiary": "F19DFF",
+        "quaternary": "AB4FF0",
+        "header_background": "312448",
+        "header_primary": "FAFAF5",
+        "highlight": "ffffff",
+        "danger": "FF645A",
+        "success": "3CC878",
+        "love": "FFB4B4",
+        "primary-low": "9F90BB",
+        "primary-medium": "fafaf5",
+        "primary-high": "ffffff",
+        "primary-low-mid": "c689f5",
+        "secondary-nosat":"453A58",
+        "secondary-low":"49376A",
+        "secondary-high": "231932",
+        "quaternary-low": "9F4AE0",
+        "highlight-high": "287DFF",
+        "highlight-medium": "ebebfa",
+        "highlight-low": "F5F5FA",
+        "selected": "ebebfa",
+        "hover": "ebebfa",
+        "secondary-vhigh": "1B1326"
+      }
+    },
+    "modifiers": {
+    },
+    "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+  }
