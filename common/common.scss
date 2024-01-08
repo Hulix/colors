@@ -526,6 +526,9 @@
     color: var(--primary);
     @extend %ultra;
 }
+.chat-message-separator-date .chat-message-separator__text {
+    color:var(--primary)
+}
 
   .topic-status-info, .topic-timer-info{
     @extend %border-ts;
