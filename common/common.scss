@@ -500,10 +500,6 @@
     }
   }
   .topic-post{
-    .names span a.first {
-        color: var(--primary);
-        @extend %ultra;
-    }
     .topic-map{
         border: none;
         background:transparent;
@@ -525,6 +521,10 @@
   }
   .topic-map section {
    border:none;
+}
+.names span a.first, names .fa {
+    color: var(--primary);
+    @extend %ultra;
 }
 
   .topic-status-info, .topic-timer-info{
@@ -838,7 +838,10 @@
   /* Fix Discourse design */
   .user-stream .notification.unread {
     background-color: var(--secondary-nosat);
-}
+  }
+  .fk-d-button-tooltip .fk-d-tooltip__trigger {
+    background:transparent;
+  }
 
   /* Display none */
   .user-field-profil-linkedin{
