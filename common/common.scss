@@ -186,6 +186,9 @@
   .btn-default{
     @extend %btsoft;
   }
+  .btn-link{
+    color:var(--quaternary);
+}
 
 
   /*
