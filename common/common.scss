@@ -83,15 +83,15 @@
     background-position:center center;
   }
   %btviolet{
-    background-color: var(--tertiary);
+    background-color: var(--quaternary);
     color: var(--highlight);
-    border: 1px solid var(--tertiary);
+    border: 1px solid var(--quaternary);
     border-radius:var(--w4);
     .d-icon {
         color: var(--highlight);
     }
     &:hover{
-      background-color: var(--tertiary-low);
+      background-color: var(--quaternary-low);
       color: var(--highlight);
       .d-icon {
         color: var(--highlight);
@@ -120,10 +120,10 @@
   %bttext{
     background-color: transparent;
     border-color:transparent;
-    color: var(--quaternary);
+    color: var(--tertiary);
   }
   %aa{
-    color: var(--quaternary);
+    color: var(--tertiary);
   }
 
   aside.onebox {
@@ -160,10 +160,10 @@
     font-family: var(--font-ultra);
   }
   a{
-    color:var(--quaternary);
+    color:var(--tertiary);
   }
   a:visited{
-  color: var(--quaternary);
+  color: var(--tertiary);
   }
   .btn, .nav-pills>li a.active{
     border-radius:var(--w4);
@@ -187,7 +187,7 @@
     @extend %btsoft;
   }
   .btn-link{
-    color:var(--quaternary);
+    color:var(--tertiary);
 }
 
 
@@ -493,7 +493,7 @@
     @extend %aa;
   }
   .user-ratings .icon {
-    color: var(--quaternary);
+    color: var(--tertiary);
   }
   .timeline-container .topic-timeline .timeline-scrollarea {
     border-left: 4px solid var(--secondary-low);
@@ -608,7 +608,7 @@
       border-radius:0.25rem
     }
   .select-kit.combo-box.category-drop .select-kit-row[data-value=all-categories], .select-kit.combo-box.category-drop .select-kit-row[data-value=no-categories] {
-    color: var(--quaternary);
+    color: var(--tertiary);
   }
   .select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
     border-color: transparent; 
@@ -623,24 +623,26 @@
     color: var(--primary);
   }
   .select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
-    border-color: var(--tertiary);
-    outline: var(--tertiary);
+    border-color: var(--quaternary);
+    outline: var(--quaternary);
 }
 
 
 
   /* btn */
   .btn-default {
-    background-color: var(--tertiary);
+    /*
+    background-color: var(--quaternary);
     color: var(--highlight);
     border-radius: var(--w4);
-    border: 1px solid var(--tertiary);
+    border: 1px solid var(--quaternary);
+    */
     .d-icon {
       color: var(--highlight);
     }
   
     &:hover {
-      background-color: var(--tertiary-low);
+      background-color: var(--quaternary-low);
       color: var(--highlight);
       .d-icon {
         color: var(--highlight);
@@ -653,7 +655,7 @@
     }
   }
   .discourse-no-touch .btn-default:hover{
-    background-color: var(--tertiary-low);
+    background-color: var(--quaternary-low);
     color: var(--highlight);
   }
   .discourse-no-touch .btn:hover .d-icon{
