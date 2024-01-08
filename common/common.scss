@@ -522,7 +522,7 @@
   .topic-map section {
    border:none;
 }
-.names span a, .names .fa {
+.names span a, .names .fa, .chat-message-info__username__name {
     color: var(--primary);
     @extend %ultra;
 }
