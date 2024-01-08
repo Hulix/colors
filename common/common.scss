@@ -630,6 +630,14 @@
 
 
   /* btn */
+  .btn-primary{
+    background-color: var(--secondary-low);
+  }
+  .btn-primary.create{
+    background-color: var(--quaternary);
+  }
+
+
   .btn-default {
     /*
     background-color: var(--quaternary);
