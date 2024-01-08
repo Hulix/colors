@@ -1,11 +1,17 @@
-  .above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper .welcome-wrapper{
+.above-main-container-outlet.welcome-link-banner-connectors .welcome-link-banner-wrapper {
+  margin: 0 0 var(--space-m) 0;
+  .welcome-wrapper{
     margin:0 auto;
     .welcome-content{ 
       h2{
         font-size: var(--font-up-5);
+      }
+      p{
+        margin-top:0;
       }
     } 
     .featured-banner-link{
       background:none;
     }
   }
+}
