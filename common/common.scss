@@ -634,7 +634,7 @@
   .btn-primary{
     background-color: var(--secondary-low);
   }
-  .btn-primary.create, #create-topic{
+  .btn-primary.create, button#create-topic.btn-default{
     background-color: var(--quaternary);
   }
 
