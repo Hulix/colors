@@ -308,8 +308,7 @@
         .category-logo.no-logo-present{
           width: calc(var(--w9) - var(--w3));
           .category-abbreviation {
-
-            /*display:none;*/
+            display:none;
           }
         }
       }    
@@ -554,23 +553,19 @@
   .navigation-categories .list-container, .categories-list .list-container {
       padding-top: calc(var(--space-m) - var(--w6));
   }
-  /*
   .navigation-categories.categories-list .navigation-container > ol.category-breadcrumb,
   .navigation-categories.categories-list .navigation-container .nav-item_latest.latest{
     display:none;
   }
-  */
   .navigation-categories .navigation-container, .categories-list .navigation-container {
       border-bottom: none;
   }
   .navigation-categories.categories-list .navigation-container > #navigation-bar {
     margin-right:var(--w8);
   }
-  /*
   .sidebar-section-link-wrapper:nth-child(2) {
     display:none;
   }
-  */
   
   /* Dropdown filter */
   .navigation-container {
@@ -856,9 +851,7 @@
   }
 
   /* Display none */
-  /*
   .user-field-profil-linkedin{
     display:none;
   }
-  */
 
