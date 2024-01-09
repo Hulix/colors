@@ -682,7 +682,7 @@
     background-color: var(--quaternary-low);
     color: var(--highlight);
   }
-  .discourse-no-touch .btn:hover .d-icon{
+  .discourse-no-touch .btn:not(.btn.search-context):hover .d-icon{
     color: var(--highlight);
   }
   .d-header-mode .bootstrap-mode {
