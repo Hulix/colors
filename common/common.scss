@@ -194,7 +194,12 @@
 .btn.search-context{
   color:var(--secondary-high);
   .d-icon{
-    color: var(--danger);
+    color: var(--secondary-high);
+  }
+  &:hover{
+    .d-icon{
+      color: var(--danger);
+    }
   }
 }
 
