@@ -17,6 +17,7 @@
     --d-selected:var(--secondary-low);
     --category-badge-text-color:var(--secondary-high);
     --tertiary-hover:var(--quaternary-low);
+    --primary-med-or-secondary-high:var(--primary);
    
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -189,6 +190,9 @@
   }
   .btn-link{
     color:var(--tertiary);
+}
+.btn.search-context{
+  color:var(--secondary-high);
 }
 
 
