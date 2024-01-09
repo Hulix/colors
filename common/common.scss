@@ -18,6 +18,10 @@
     --category-badge-text-color:var(--secondary-high);
     --tertiary-hover:var(--quaternary-low);
     --primary-med-or-secondary-high:var(--primary);
+    --primary-low-mid-or-secondary-high:var(--primary);
+    /*highlight-bg: couleur de background d'intro de texte lors de la creation d'un post*/
+    /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
+    /*--danger-low-mid):background suppression*/
    
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -191,6 +195,10 @@
   .btn-link{
     color:var(--tertiary);
 }
+.discourse-no-touch .d-editor-button-bar .btn:hover{
+  background-color: var(--secondary-low);
+}
+
 .btn.search-context{
   color:var(--secondary-high);
   .d-icon{
@@ -887,6 +895,11 @@
   }
   .fk-d-button-tooltip .fk-d-tooltip__trigger {
     background:transparent;
+  }
+  aside.quote .title {
+    background-color: var(--secondary-nosat);
+    color: var(--primary);
+    @extend %ultra;
   }
 
   /* Display none */
