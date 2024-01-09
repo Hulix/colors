@@ -898,6 +898,8 @@
   }
   blockquote, aside.quote .title {
     background-color: var(--secondary-nosat);
+  }
+  aside.quote .title {
     color: var(--primary);
     @extend %ultra;
   }
