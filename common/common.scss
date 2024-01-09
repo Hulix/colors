@@ -896,7 +896,7 @@
   .fk-d-button-tooltip .fk-d-tooltip__trigger {
     background:transparent;
   }
-  aside.quote .title {
+  .blockquote, aside.quote .title {
     background-color: var(--secondary-nosat);
     color: var(--primary);
     @extend %ultra;
