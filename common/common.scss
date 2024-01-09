@@ -903,6 +903,10 @@
     color: var(--primary);
     @extend %ultra;
   }
+  .user-main .about.has-background .user-profile-image {
+    background-size: contain;
+    background-position: left;
+}
 
   /* Display none */
   .user-field-profil-linkedin{
