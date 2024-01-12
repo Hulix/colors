@@ -19,6 +19,7 @@
     --tertiary-hover:var(--quaternary-low);
     --primary-med-or-secondary-high:var(--primary);
     --primary-low-mid-or-secondary-high:var(--primary);
+    --primary-high-or-secondary-low:var(--primary);
     /*highlight-bg: couleur de background d'intro de texte lors de la creation d'un post*/
     /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
     /*--danger-low-mid):background suppression*/
@@ -646,6 +647,9 @@
   .select-kit.single-select.is-expanded .select-kit-header:not(.btn), .select-kit.single-select .select-kit-header:not(.btn):focus, .select-kit.single-select .select-kit-header:not(.btn):active {
     border-color: var(--quaternary);
     outline: var(--quaternary);
+}
+.select-kit-header-wrapper .badge-category__wrapper .badge-category__name {
+  color: var(--primary-high);
 }
 
 
