@@ -799,14 +799,23 @@
   }
 
 /* Masonry */
+.topic-thumbnails-grid .topic-list-body, .topic-thumbnails-masonry .topic-list-body {
+  grid-row-gap:calc(var(--w11) + var(--w6));
+  grid-column-gap:var(--w11);
+  .topic-list.topic-list-item {
+    padding:0;
+  }
+}
 .topic-thumbnails-grid .topic-list-item, .topic-thumbnails-masonry .topic-list-item, 
 .topic-thumbnails-grid .activity, .topic-thumbnails-grid .main-link, .topic-thumbnails-grid .posters, .topic-thumbnails-masonry .activity, .topic-thumbnails-masonry .main-link, .topic-thumbnails-masonry .posters {
+  padding-bottom:var(--w6);
   background: transparent;
-  border:none;
+  @extend %border-bs;
 }
 .topic-thumbnails-grid .topic-list-thumbnail, .topic-thumbnails-masonry .topic-list-thumbnail {
     aspect-ratio: 16 / 10;
     width: 100%;
+    border-radius:var(--radius-m);
 }
 .topic-list .topic-list-item .link-top-line {
   overflow: hidden;
