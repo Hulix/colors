@@ -17,4 +17,11 @@
 }
 .categories-and-latest {
     display: block;
+  .latest-topic-list{
+    display: block;
+    visibility:visible;
+    .latest-topic-list-item{
+      display: block;
+    }
+  }
 }
