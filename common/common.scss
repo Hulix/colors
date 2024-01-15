@@ -568,7 +568,7 @@
     padding-bottom: 2px;
 }
 */
-.topic-list .posters>a:not(:nth-child(1)),.topic-list .posters>a:not(:nth-child(2)),.topic-list .posters>a:not(:nth-child(3)),.topic-list .posters>a:not(:nth-child(4)),.topic-list .posters>a:not(:only-child)     {
+.topic-list .posters>a:not(:nth-of-type(1)),.topic-list .posters>a:not(:nth-of-type(2)),.topic-list .posters>a:not(:nth-of-type(3)),.topic-list .posters>a:not(:nth-of-type(4)),.topic-list .posters>a:not(:only-of-type){
 display: none;
 }
 .names span a, .names .fa, .chat-message-info__username__name {
