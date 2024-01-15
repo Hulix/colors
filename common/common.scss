@@ -552,6 +552,10 @@
   .topic-map section {
    border:none;
 }
+.topic-list .posters a:first-child .avatar.latest:not(.single) {
+    border: var(--radius-s) solid var(--primary);
+    background: var(--primary);
+}
 .names span a, .names .fa, .chat-message-info__username__name {
     color: var(--primary);
     @extend %ultra;
@@ -810,6 +814,7 @@
   .topic-list .topic-list-item {
     padding:0;
     padding-bottom:var(--w6);
+    overflow:visible;
     @extend %border-bs;
   }
 }
