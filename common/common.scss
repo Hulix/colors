@@ -558,6 +558,14 @@
     box-shadow: none;
     left:0;
 }
+/* Tricky 1 line avatar topics - TEST */
+.topic-list .topic-list-data.posters {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    /**/padding-bottom: 2px;
+}
 .names span a, .names .fa, .chat-message-info__username__name {
     color: var(--primary);
     @extend %ultra;
