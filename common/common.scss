@@ -845,8 +845,11 @@
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 1;
     }
+}
+.topic-thumbnails-grid .topic-list-thumbnail .background-thumbnail{
+    border-radius:var(--w4);
 }
     /* background-color: rgba(var(--primary-low-rgb), 0.85);
 
