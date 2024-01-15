@@ -568,9 +568,13 @@
     padding-bottom: 2px;
 }
 */
-.topic-list .posters>a:not(:nth-of-type(1)),.topic-list .posters>a:not(:nth-of-type(2)),.topic-list .posters>a:not(:nth-of-type(3)),.topic-list .posters>a:not(:nth-of-type(4)),.topic-list .posters>a:not(:only-of-type){
-display: none;
+.topic-list .posters>a{
+    display: none;
+    }
+.topic-list .posters>a:nth-of-type(1):nth-of-type(2):nth-of-type(3):nth-of-type(4){
+display: block;
 }
+/**/
 .names span a, .names .fa, .chat-message-info__username__name {
     color: var(--primary);
     @extend %ultra;
