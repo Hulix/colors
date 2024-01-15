@@ -811,7 +811,7 @@
 
 /* Masonry */
 .topic-thumbnails-grid .topic-list-body, .topic-thumbnails-masonry .topic-list-body {
-  grid-row-gap:calc(var(--w11) + var(--w6));
+  grid-row-gap:var(--w11);
   grid-column-gap:var(--w11);
   .topic-list .topic-list-item {
     padding:0;
@@ -958,8 +958,8 @@
     color: var(--primary);
     @extend %ultra;
   }
-  .heatmap-med, .heatmap-med a, .heatmap-med .d-icon, .heatmap-med .d-button-label {
-    @extend %aa;
+  .heatmap-low, .heatmap-low a, .heatmap-low .d-icon, .heatmap-low .d-button-label {
+    color: #f19dff!important;
 }
 
   /*
