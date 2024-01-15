@@ -175,7 +175,7 @@
   color: var(--tertiary);
   }
   .btn, .nav-pills>li a.active{
-    border-radius:var(--w4);
+    @extend %btsoft;
   }
   .btn-large{
 
@@ -192,7 +192,7 @@
   .discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
     color: var(--highlight);
   }
-  .btn, .btn-default, .discourse-no-touch .btn{
+  .btn-default{
     @extend %btsoft;
   }
   .btn-link{
