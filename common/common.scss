@@ -811,7 +811,7 @@
 }
 .topic-thumbnails-grid .topic-list-item, .topic-thumbnails-masonry .topic-list-item, 
 .topic-thumbnails-grid .activity, .topic-thumbnails-grid .main-link, .topic-thumbnails-grid .posters, .topic-thumbnails-masonry .activity, .topic-thumbnails-masonry .main-link, .topic-thumbnails-masonry .posters {
-  padding-bottom:var(--w6);
+  /*padding-bottom:var(--w6);*/
   background: transparent;
   border:none;
 }
@@ -909,6 +909,9 @@ display: -webkit-box;
       .blurb, .links, .footer-section-link, .d-icon{
         color:var(--primary);
       }
+      .list span {
+        @extend %ultra
+      }
     }
   }
   .custom-footer .third-box .social .social-link .d-icon {
@@ -947,4 +950,16 @@ display: -webkit-box;
   }
   .user-menu.revamped .quick-access-panel li.unread, .user-menu.revamped .quick-access-panel li.pending {
     background-color: var(--secondary-nosat);
+}
+/* Invote page */
+.invite-page .custom-footer{
+    display:none;
+  }
+.invite-page > #main{
+    background:var(--secondary-low)
+}
+.invite-page .invites-show{
+  box-shadow: none;
+  border-radius: var(--w9);
+  border: var(--w4) solid var(--secondary-high);
 }
