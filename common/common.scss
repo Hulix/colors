@@ -175,7 +175,7 @@
   a:visited{
   color: var(--tertiary);
   }
-  .btn[type="button"],.btn[type="submit"], .nav-pills>li a.active{
+  .btn[type="button"]:not(.sidebar-sections .btn),.btn[type="submit"], .nav-pills>li a.active{
     @extend %btsoft;
   }
   .btn-large{
