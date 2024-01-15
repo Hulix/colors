@@ -11,7 +11,7 @@
     --d-input-border:var(--w1) solid var(--primary);
     --d-input-border-radius:var(--w4);
     --primary-50:var(--primary);--primary-100:var(--primary);--primary-200:var(--primary);--primary-300:var(--primary);--primary-400:var(--primary);--primary-500:var(--primary);--primary-600:var(--primary);--primary-700:var(--primary);--primary-800:var(--primary);--primary-900:var(--primary);
-    /*--primary-low: var(--secondary-low);*/
+    --primary-low: var(--secondary-low);
     --primary-very-low: var(--secondary-high);
     --danger-medium:var(--danger);
     --d-hover:var(--secondary-low);
@@ -175,7 +175,7 @@
   a:visited{
   color: var(--tertiary);
   }
-  .btn, .nav-pills>li a.active{
+  .btn:not(.sidebar-section-header), .nav-pills>li a.active{
     @extend %btsoft;
   }
   .btn-large{
