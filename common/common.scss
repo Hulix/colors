@@ -21,7 +21,7 @@
     --primary-low-mid-or-secondary-high:var(--primary);
     --primary-high-or-secondary-low:var(--primary);
     --highlight-bg:var(--secondary-low);
-    --highlight-low-or-medium::var(--secondary-low);
+    --highlight-low-or-medium:var(--secondary-low);
     /*highlight-bg: couleur de background d'intro de texte lors de la creation d'un post*/
     /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
     /*--danger-low-mid):background suppression*/
@@ -192,7 +192,7 @@
   .discourse-no-touch .btn-primary:hover, .discourse-no-touch .btn-primary.btn-hover {
     color: var(--highlight);
   }
-  .btn-default{
+  .btn, .btn-default, .discourse-no-touch .btn{
     @extend %btsoft;
   }
   .btn-link{
@@ -966,4 +966,12 @@ display: -webkit-box;
 }
 .invitation-cta__accept, .btn-primary[type="submit"]{
     @extend %btviolet;
+}
+
+/* map */
+.map-search input {
+    color:var(--highlight)
+}
+.map-search .search-filter-type span label {
+    color:var(--t-contraste)
 }
