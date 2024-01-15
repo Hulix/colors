@@ -555,6 +555,8 @@
 .topic-list .posters a:first-child .avatar.latest:not(.single) {
     border: var(--radius-s) solid var(--primary);
     background: var(--primary);
+    box-shadow: none;
+    left:0;
 }
 .names span a, .names .fa, .chat-message-info__username__name {
     color: var(--primary);
@@ -814,9 +816,11 @@
   .topic-list .topic-list-item {
     padding:0;
     padding-bottom:var(--w6);
-    overflow:visible;
     @extend %border-bs;
   }
+}
+.topic-thumbnails-grid .topic-list-item{
+    overflow:visible;
 }
 .topic-thumbnails-grid .topic-list-item, .topic-thumbnails-masonry .topic-list-item, 
 .topic-thumbnails-grid .activity, .topic-thumbnails-grid .main-link, .topic-thumbnails-grid .posters, .topic-thumbnails-masonry .activity, .topic-thumbnails-masonry .main-link, .topic-thumbnails-masonry .posters {
