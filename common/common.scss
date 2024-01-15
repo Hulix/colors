@@ -834,14 +834,18 @@
     border-radius:var(--radius-m);
 }
 .topic-list .topic-list-item .link-top-line, .topic-list {
-    .link-top-line, .link-bottom-line {
+    .link-top-line {
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
+        margin-bottom:var(--w4);
     }
     .link-bottom-line{
-        margin-bottom:var(--w4);
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
     }
 }
     /* background-color: rgba(var(--primary-low-rgb), 0.85);
