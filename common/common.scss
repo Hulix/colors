@@ -178,6 +178,9 @@
   }
   a:hover{
     text-decoration:underline;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: rgba(var(--tertiary-rgb), 0.5);
   }
   a:visited{
   color: var(--visited);
