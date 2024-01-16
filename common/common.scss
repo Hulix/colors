@@ -911,6 +911,9 @@ display: block;
     float: none;
     width: 100%;
 }
+.title-voting {
+    margin-bottom: var(--w8);
+}
 .voting-wrapper {
     display: flex;
     align-items: center;
@@ -919,6 +922,7 @@ display: block;
     min-width: 70px;
     box-sizing: border-box;
     min-height: 30px;
+    border-left: 4px solid var(--secondary-low);
 }
   
 
