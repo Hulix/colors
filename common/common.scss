@@ -1124,6 +1124,9 @@ div.poll {
   #new-account-link.btn[type="button"]{
     @extend %btblanc;
   }
+  #login-button.btn[type="button"]{
+    @extend %btviolet;
+  }
 
 /* Badges */
 .badge-card {
