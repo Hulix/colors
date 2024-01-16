@@ -753,8 +753,8 @@ display: block;
     background-color: var(--secondary-low);
 }
 
-/* */
-.nav-pills {
+/* 
+.nav-pills, .new-user-wrapper .user-navigation .nav-pills {
     & > li a {
       padding: 0;
       margin-right: 20px;
@@ -765,7 +765,7 @@ display: block;
         color: var(--tertiary);
         background-color: var(--secondary);
         border-bottom: 4px solid var(--tertiary);
-        border-radius:none;
+        border-radius:0;
       }
   
       &:hover {
@@ -775,7 +775,7 @@ display: block;
       }
     }
   }
- 
+ */
 
   /* Modal */
   .d-modal__backdrop {
