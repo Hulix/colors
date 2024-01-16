@@ -912,7 +912,11 @@ display: block;
     width: 100%;
 }
 .title-voting {
-    margin-bottom: var(--w8);
+    margin-bottom: var(--w7);
+}
+.vote-button {
+    margin-bottom:0;
+    @extend %btsoft;
 }
 .voting-wrapper {
     display: flex;
