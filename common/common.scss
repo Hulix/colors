@@ -1121,6 +1121,9 @@ div.poll {
       }
     }
   }
+  #new-account-link.btn[type="button"]{
+    @extend %btblanc;
+  }
 
 /* Badges */
 .badge-card {
