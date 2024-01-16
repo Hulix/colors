@@ -1,4 +1,7 @@
 :root{
+    /* ALL */
+    
+
     /* Fix */
     --font-family:'PPTelegraf-Regular';
     --font-ultra:'PPTelegraf-Ultrabold';
@@ -172,8 +175,11 @@
   a{
     color:var(--tertiary);
   }
+  a[href]:hover{
+    text-decoration:underline;
+  }
   a:visited{
-  color: var(--tertiary);
+  color: var(--visited);
   }
   .btn[type="button"]:not(.sidebar-sections .btn,.bootstrap-mode),.btn[type="submit"], .nav-pills>li a.active{
     @extend %btsoft;
@@ -525,7 +531,7 @@
   .user-ratings .icon.checked::before {
     color: var(--tertiary)!important;
   }
-  .rating-count > a{
+  .average-ratings .rating-count > a{
     font-family: var(--font-family);
     font-weight: normal;
   }
@@ -970,6 +976,14 @@ display: block;
   
 
   /* Fix Discourse design */
+  .header-sidebar-toggle button {
+    border-radius:var(--radius-s)
+  }
+  .alert {
+    border-radius:var(--radius-s)
+    background-color: var(--t-contraste);
+    color: var(--danger);
+  }
   .user-stream .notification.unread {
     background-color: var(--secondary-nosat);
   }
@@ -999,6 +1013,7 @@ display: block;
 .top-sub-section li {
     border-left-width: 8px;
 }
+
 
   /*
   .user-main .about.has-background .user-profile-image {
