@@ -1091,3 +1091,12 @@ div.poll {
     border:none;
     border-radius: var(--radius-l);
 }
+
+/* Post notice (notif) */
+.post-notice {
+    border-top:none;
+    border-top-left-radius: var(--radius-m);
+    border-top-right-radius: var(--radius-m);
+    background-color: var(--secondary-high);
+    border-top: 1px solid var(--primary-low);
+}
