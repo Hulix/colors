@@ -981,7 +981,7 @@ display: block;
   
 
   /* Fix Discourse design */
-  .header-sidebar-toggle button {
+  .header-sidebar-toggle button,.btn.btn-flat {
     border-radius:var(--radius-s)
   }
   .alert {
