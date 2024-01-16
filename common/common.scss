@@ -901,6 +901,20 @@ display: block;
   .edit-topic-title .select-kit.multi-select .multi-select-header{
     border-color: var(--primary);
   }
+  #topic-title .title-wrapper {
+    position: relative;
+    float: none;
+    width: 100%;
+}
+.voting-wrapper {
+    display: flex;
+    align-items: center;
+}
+.vote-count-wrapper {
+    min-width: 70px;
+    box-sizing: border-box;
+    min-height: 30px;
+}
   
 
 /* Popover */
