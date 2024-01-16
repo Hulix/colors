@@ -753,7 +753,7 @@ display: block;
     background-color: var(--secondary-low);
 }
 
-/*
+/* */
 .nav-pills {
     & > li a {
       padding: 0;
@@ -765,6 +765,7 @@ display: block;
         color: var(--tertiary);
         background-color: var(--secondary);
         border-bottom: 4px solid var(--tertiary);
+        border-radius:none;
       }
   
       &:hover {
@@ -774,7 +775,7 @@ display: block;
       }
     }
   }
-  */
+ 
 
   /* Modal */
   .d-modal__backdrop {
@@ -981,6 +982,7 @@ display: block;
 .topic-list .topic-list-item-separator .topic-list-data {
     border-top: 2px solid var(--love);
     border-bottom: 2px solid var(--love);
+    background-color: var(--love);
 }
 .topic-list .topic-list-item-separator .topic-list-data span {
     color: var(--love);
@@ -1028,4 +1030,24 @@ display: block;
 }
 .map-search .search-filter-type span label {
     color:var(--t-contraste)
+}
+
+/* Poll */
+div.poll {
+    border-width: 4px;
+    border-radius: var(--radius-l);
+    .poll-container li {
+        font-size: var(--font-0);
+    }
+    .poll-buttons {
+    border-top-width: 4px;
+    }
+}
+@media screen and (min-width: calc(551px)){
+    div.poll .poll-info {
+      border-left-width: 4px;
+      .poll-info_instructions:not(:empty) {
+        border-top-width: 4px;
+      }
+    }
 }
