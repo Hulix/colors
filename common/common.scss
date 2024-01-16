@@ -522,6 +522,9 @@
   .user-ratings .icon {
     color: var(--tertiary);
   }
+  .user-ratings .icon.checked::before {
+    color: var(--tertiary)!important;
+  }
   .timeline-container .topic-timeline .timeline-scrollarea {
     border-left: 4px solid var(--secondary-low);
     .timeline-handle {
@@ -601,7 +604,7 @@ display: block;
   
   /* Fix home filters & sidebar */
   .navigation-categories.categories-list .navigation-container .nav-pills>li a.active {
-    padding:0;
+    padding:0;border:none;
     background:transparent;
     font-size:var(--font-up-4);
     @extend %ultra;
@@ -989,6 +992,9 @@ display: block;
     padding: 0 16px;
     @extend %ultra;
 }
+.top-sub-section li {
+    border-left-width: 8px;
+}
 
   /*
   .user-main .about.has-background .user-profile-image {
@@ -1050,4 +1056,10 @@ div.poll {
         border-top-width: 4px;
       }
     }
+}
+
+/* Badges */
+.badge-card {
+    border:none;
+    border-radius: var(--radius-l);
 }
