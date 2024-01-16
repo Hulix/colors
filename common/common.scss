@@ -262,7 +262,7 @@
     }
   }
 
-  img.avatar {
+  img.avatar:not(.winner__avatar img.avatar) {
     border: var(--w2) solid var(--primary);
     background:var(--primary);
     max-width: 40px;
