@@ -190,7 +190,8 @@
   p a:visited{
   color: var(--visited);
   }
-  .btn[type="button"]:not(.sidebar-sections .btn,.bootstrap-mode, #login-form.btn, #login-link.btn),.btn[type="submit"], .nav-pills>li a.active,#topic-footer-buttons .btn-default:not(.create){
+  /*#login-form.btn, #login-link.btn*/
+  .btn[type="button"]:not(.sidebar-sections .btn,.bootstrap-mode),.btn[type="submit"], .nav-pills>li a.active,#topic-footer-buttons .btn-default:not(.create){
     @extend %btsoft;
   }
   .btn-large{
