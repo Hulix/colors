@@ -980,7 +980,7 @@ display: block;
     border-radius:var(--radius-s)
   }
   .alert {
-    border-radius:var(--radius-s)
+    border-radius:var(--radius-s);
     background-color: var(--t-contraste);
     color: var(--danger);
   }
