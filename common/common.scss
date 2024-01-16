@@ -176,11 +176,12 @@
   a{
     color:var(--tertiary);
   }
-  a:hover{
+  p a:not(.mention):hover{
     text-decoration:underline;
     text-decoration-thickness: 3px;
     text-decoration-skip-ink: auto;
-    text-decoration-color: rgba(var(--tertiary-rgb), 0.5);
+    /*text-decoration-color: rgba(var(--tertiary-rgb), 0.5);*/
+    text-decoration-color:var(--quaternary);
   }
   a:visited{
   color: var(--visited);
