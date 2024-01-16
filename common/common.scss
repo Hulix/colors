@@ -1138,6 +1138,24 @@ pre code {
 }
 
 /* Leaderboard */
+.leaderboard .winner.-position1 .winner__avatar img,
+.leaderboard .winner.-position2 .winner__avatar img
+.leaderboard .winner.-position3 .winner__avatar img {
+    border: var(--w4) solid var(--primary);
+}
+.leaderboard .podium__wrapper {
+    background: var(--secondary-high);
+    border-bottom-left-radius: var(--radius-l);
+    border-bottom-right-radius: var(--radius-l);
+}
+.leaderboard .user.-self {
+    background-color: var(--quaternary);
+    color: var(--primary);
+}
+.leaderboard .user {
+    background-color: var(--secondary-high);
+}
+/*
 .leaderboard .winner__crown{
     position:relative;
     opacity:0;
@@ -1150,3 +1168,4 @@ pre code {
         margin-top:-3px; 
   }
 }
+*/
