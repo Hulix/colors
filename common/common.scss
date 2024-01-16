@@ -985,7 +985,7 @@ display: block;
   }
   .alert {
     border-radius:var(--radius-s);
-    background-color: var(--t-contraste);
+    background-color:var(--t-contraste);
     color: var(--danger);
   }
   .user-stream .notification.unread {
@@ -1058,7 +1058,7 @@ display: block;
     color:var(--highlight)
 }
 .map-search .search-filter-type span label {
-    color:var(--t-contraste)
+    color:var(--t-contraste);
 }
 
 /* Poll */
