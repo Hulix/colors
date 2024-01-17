@@ -1233,3 +1233,7 @@ pre code {
         }
     }
 }
+/* Événement */
+.discourse-post-event .event-date .month {
+    color: var(--primary);
+}
