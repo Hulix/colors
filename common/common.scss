@@ -801,8 +801,11 @@ display: block;
         border-bottom: 4px solid var(--primary);
         border-radius:0;
         .d-icon {
-            color: var(--primary);
-          }
+          color: var(--primary);
+        }
+        &:hover {
+          color: var(--primary);
+        }
       }
   
       &:hover {
