@@ -24,6 +24,7 @@
     --primary-med-or-secondary-high:var(--primary);
     --primary-low-mid-or-secondary-high:var(--primary);
     --primary-high-or-secondary-low:var(--primary);
+    --highlight-medium:var(--hover-secondary);
     --highlight-bg:var(--secondary-low);
     --highlight-low-or-medium:var(--secondary-low);
     --header_primary-low-mid:var(--primary);
@@ -1013,7 +1014,9 @@ display: block;
     border-left-width: 8px;
 }
 
-
+.signup-cta a{
+  text-decoration: inherit;
+}
   /*
   .user-main .about.has-background .user-profile-image {
     background-size: contain;
@@ -1193,4 +1196,10 @@ pre code {
   .bg{
     background-color: var(--secondary-low);
   }
+}
+
+/* Messages privés */
+.archetype-private_message .regular.contents {
+    border-radius: 0 var(--pm-border-radius) var(--pm-border-radius) var(--pm-border-radius);
+    border-width: 4px;
 }
