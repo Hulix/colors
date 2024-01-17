@@ -788,22 +788,28 @@ display: block;
 /*  */
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
     & > li a {
+      /*  
       padding: 0;
       margin-right: 20px;
+      */
       color: var(--tertiary);
-      border-bottom: 4px solid transparent;
+      /*border-bottom: 4px solid transparent;*/
   
       &.active {
         color: var(--tertiary);
         background-color: var(--secondary);
+        /*
         border-bottom: 4px solid var(--tertiary);
+        */
         border-radius:0;
       }
   
       &:hover {
         color: var(--tertiary);
         background-color: var(--secondary);
+        /*
         border-bottom: 4px solid var(--primary);
+        */
       }
     }
   }
