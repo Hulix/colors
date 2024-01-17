@@ -917,7 +917,7 @@ display: block;
 
 /* Alerte */
 .alert.alert-info {
-  background-color: var(--secondary-nosat);
+  background-color: var(--secondary-high);
   .buttons{
     .btn-primary{
       @extend %btblanc;
@@ -1183,3 +1183,14 @@ pre code {
   }
 }
 */
+/* Progress bar (reader) */
+#topic-progress {
+  background-color: var(--t-contraste);
+  color: var(--primary);
+  border: 4px solid var(--secondary-low);
+  width: 145px;
+  height: 42px;
+  .bg{
+    background-color: var(--secondary-low);
+  }
+}
