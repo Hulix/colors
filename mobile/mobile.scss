@@ -19,6 +19,12 @@
     max-width: 36px;
     max-height: 36px;
   }
+.topic-post article {
+  border-top: 4px solid var(--secondary-low);
+  .topic-body{
+  border-top:none;
+  }
+}
 /* Topics on mobile - marche pas 
 .categories-and-latest {
     display: block;
