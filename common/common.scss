@@ -1218,9 +1218,9 @@ pre code {
         .user-navigation {
             border-bottom-width: 4px;
             .nav-pills li a.active {
-              color: var(--tertiary);
+              /*color: var(--tertiary);*/
               background: transparent;
-              border-bottom: var(--user-navigation__border-width) solid var(--tertiary);
+             /* border-bottom: var(--user-navigation__border-width) solid var(--tertiary);*/
               border-radius: 0;
               border-top: none;border-left: none;border-right: none;
             }
