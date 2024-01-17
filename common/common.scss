@@ -787,7 +787,6 @@ display: block;
 
 /*  */
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
-    margin-bottom:var(--w7)
     & > li a {
       padding: 0;
       margin-right: 20px;
@@ -1210,7 +1209,19 @@ pre code {
     .about.collapsed-info .details {
       border-bottom-width: 4px;
     }
-    /*.new-user-wrapper*/ .user-navigation {
-      border-bottom-width: 4px;
+    .new-user-wrapper {
+        .user-navigation {
+            border-bottom-width: 4px;
+            .nav-pills li a.active {
+              color: var(--tertiary);
+              background: transparent;
+              border-bottom: var(--user-navigation__border-width) solid var(--tertiary);
+              border-radius: 0;
+              border-top: none;border-left: none;border-right: none;
+            }
+        }      
+        .new-user-content-wrapper{
+          margin-bottom:var(--w7)
+        }
     }
 }
