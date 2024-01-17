@@ -55,6 +55,7 @@
     --space-m: var(--w10);
     --space-l: var(--w12);
     --shadow-card: none;
+    --secondary-light:#AFA2C7;
     --t-contraste: #1B1326;
     --secondary-nosat:#453A58;
     --visited:#FFDC5D;
@@ -998,13 +999,13 @@ display: block;
 
 
 .topic-list .topic-list-item-separator .topic-list-data, .small-action.topic-post-visited .topic-post-visited-line {
-    border-top: 2px solid var(--primary-low);
-    border-bottom: 2px solid var(--primary-low);
-    background-color: var(--primary-low);
-    color: var(--primary-low);
+    border-top: 2px solid var(--secondary-light);
+    border-bottom: 2px solid var(--secondary-light);
+    background-color: var(--secondary-light);
+    color: var(--secondary-light);
 }
 .topic-list .topic-list-item-separator .topic-list-data span {
-    color: var(--primary-low);
+    color: var(--secondary-light);
     padding: 0 16px;
     @extend %ultra;
 }
