@@ -796,20 +796,19 @@ display: block;
       /*border-bottom: 4px solid transparent;*/
   
       &.active {
-        color: var(--tertiary);
+        color: var(--primary);
         background-color: var(--secondary);
-        /*
-        border-bottom: 4px solid var(--tertiary);
-        */
+        border-bottom: 4px solid var(--primary);
         border-radius:0;
+        .d-icon {
+            color: var(--primary);
+          }
       }
   
       &:hover {
         color: var(--tertiary);
         background-color: var(--secondary);
-        /*
         border-bottom: 4px solid var(--primary);
-        */
       }
     }
   }
@@ -1227,7 +1226,7 @@ pre code {
             }
         }      
         .new-user-content-wrapper{
-          margin-bottom:var(--w7)
+          padding-top:var(--w9)
         }
     }
 }
