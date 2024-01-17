@@ -785,12 +785,13 @@ display: block;
     background-color: var(--secondary-low);
 }
 
-/* 
+/*  */
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
+    margin-bottom:var(--w7)
     & > li a {
       padding: 0;
       margin-right: 20px;
-      color: var(--tertiary-high);
+      color: var(--tertiary);
       border-bottom: 4px solid transparent;
   
       &.active {
@@ -807,7 +808,7 @@ display: block;
       }
     }
   }
- */
+
 
 
 /* Masonry */
@@ -1202,4 +1203,14 @@ pre code {
 .archetype-private_message .regular.contents {
     border-radius: 0 var(--pm-border-radius) var(--pm-border-radius) var(--pm-border-radius);
     border-width: 4px;
+}
+
+/* Page profil */
+.user-main {
+    .about.collapsed-info .details {
+      border-bottom-width: 4px;
+    }
+    /*.new-user-wrapper*/ .user-navigation {
+      border-bottom-width: 4px;
+    }
 }
