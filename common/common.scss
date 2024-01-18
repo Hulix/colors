@@ -30,7 +30,7 @@
     --header_primary-low-mid:var(--primary);
     /*highlight-bg: couleur de background d'intro de texte lors de la creation d'un post*/
     /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
-    /*--danger-low-mid):background suppression*/
+    --danger-low-mid:var(--secondary-high);
    
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -1004,7 +1004,9 @@ display: block;
   .heatmap-low, .heatmap-low a, .heatmap-low .d-icon, .heatmap-low .d-button-label, .heatmap-med, .heatmap-med a, .heatmap-med .d-icon, .heatmap-med .d-button-label,.heatmap-high, .heatmap-high a, .heatmap-high .d-icon, .heatmap-high .d-button-label {
     color: #f19dff!important;
 }
-
+.deleted nav.post-controls .show-replies, .deleted nav.post-controls button.reply.create {
+    color: var(--primary);
+}
 
 
 .topic-list .topic-list-item-separator .topic-list-data, .small-action.topic-post-visited .topic-post-visited-line {
