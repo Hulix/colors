@@ -1197,7 +1197,7 @@ pre code {
                 &.active {
                     color: var(--primary);
                     background: transparent;
-                    /* border-bottom: var(--user-navigation__border-width) solid var(--tertiary);*/
+                    border-bottom: 4px solid var(--primary);
                     border-radius: 0;
                     border-top: none;border-left: none;border-right: none;
                     .d-icon {
