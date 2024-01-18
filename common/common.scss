@@ -785,33 +785,6 @@ display: block;
     background-color: var(--secondary-low);
 }
 
-/*  */
-/*
-.nav-pills, .new-user-wrapper .user-navigation .nav-pills {
-    & > li a {
-      color: var(--tertiary);
-  
-      &.active {
-        color: var(--primary);
-        background-color: var(--secondary);
-        border-bottom: 4px solid var(--primary);
-        border-radius:0;
-        .d-icon {
-          color: var(--primary);
-        }
-        &:hover {
-          color: var(--primary);
-        }
-      }
-  
-      &:hover {
-        color: var(--tertiary);
-        background-color: var(--secondary);
-        border-bottom: 4px solid var(--primary);
-      }
-    }
-  }
-  */
 
 
 
@@ -1219,12 +1192,26 @@ pre code {
     .new-user-wrapper {
         .user-navigation {
             border-bottom-width: 4px;
-            .nav-pills li a.active {
-              /*color: var(--tertiary);*/
-              background: transparent;
-             /* border-bottom: var(--user-navigation__border-width) solid var(--tertiary);*/
-              border-radius: 0;
-              border-top: none;border-left: none;border-right: none;
+            .nav-pills li a{
+                color: var(--tertiary);
+                &.active {
+                    color: var(--primary);
+                    background: transparent;
+                    /* border-bottom: var(--user-navigation__border-width) solid var(--tertiary);*/
+                    border-radius: 0;
+                    border-top: none;border-left: none;border-right: none;
+                    .d-icon {
+                      color: var(--primary);
+                    }
+                    &:hover {
+                      color: var(--primary);
+                    }
+                } 
+                &:hover {
+                    color: var(--tertiary);
+                    background-color: var(--secondary);
+                    border-bottom: 4px solid var(--primary);
+                }
             }
         }      
         .new-user-content-wrapper{
@@ -1236,3 +1223,31 @@ pre code {
 .discourse-post-event .event-date .month {
     color: var(--primary);
 }
+
+/*  */
+/*
+.nav-pills, .new-user-wrapper .user-navigation .nav-pills {
+    & > li a {
+      color: var(--tertiary);
+  
+      &.active {
+        color: var(--primary);
+        background-color: var(--secondary);
+        border-bottom: 4px solid var(--primary);
+        border-radius:0;
+        .d-icon {
+          color: var(--primary);
+        }
+        &:hover {
+          color: var(--primary);
+        }
+      }
+  
+      &:hover {
+        color: var(--tertiary);
+        background-color: var(--secondary);
+        border-bottom: 4px solid var(--primary);
+      }
+    }
+  }
+  */
