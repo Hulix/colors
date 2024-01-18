@@ -1200,11 +1200,13 @@ pre code {
                     border-bottom: 4px solid var(--primary);
                     border-radius: 0;
                     border-top: none;border-left: none;border-right: none;
+                    cursor:initial;
                     .d-icon {
                       color: var(--primary);
                     }
                     &:hover {
                       color: var(--primary);
+                      border-bottom-color:var(--primary)
                     }
                 } 
                 &:hover {
