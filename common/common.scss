@@ -1229,8 +1229,11 @@ pre code {
 /* Menu panel (header) */
 .menu-panel {
     border-width: 4px;
+    border-radius:var(--radius-m)
 }
-
+.user-menu.revamped .menu-tabs-container {
+    border-left-width: 4px;
+}
 
 /* Finitions */
 .post-stream img{
