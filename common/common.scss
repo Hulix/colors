@@ -1234,8 +1234,8 @@ pre code {
   .discourse-no-touch .d-header-icons .current-user .icon:hover{
     background-color: var(--secondary);
   }
-.drop-down-mode .d-header-icons .active .icon {
-   
+.drop-down-mode .d-header-icons .current-user.active .icon {
+    border-color:transparent;
 }
 .menu-panel {
     &.user-menu.revamped {
