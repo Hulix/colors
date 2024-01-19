@@ -1241,7 +1241,7 @@ pre code {
 .menu-panel {
     &.user-menu.revamped {
         border-width: 4px;
-        border-radius:var(--radius-m);
+        border-radius:var(--radius-l);
         .menu-tabs-container {
             border-left-width: 4px;
         }
@@ -1258,7 +1258,7 @@ pre code {
 .menu-panel 
 
 /* Finitions */
-.post-stream .lightbox{
+.post-stream .lightbox-wrapper .lightbox {
     border-radius:var(--radius-m)
 }
 
