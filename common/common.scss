@@ -293,7 +293,7 @@
   .sidebar-sections {
     padding-right: var(--w11);
   }
-  .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus{
+  .discourse-no-touch .d-header-icons .icon:not(#current-user > .icon):hover, .discourse-no-touch .d-header-icons .icon:not(#current-user > .icon):focus{
     background-color: var(--secondary-low);
   }
   
@@ -1227,6 +1227,9 @@ pre code {
 }
 
 /* Menu panel (header) */
+.drop-down-mode .d-header-icons .active .icon {
+    border:none;
+}
 .menu-panel {
     &.user-menu.revamped {
         border-width: 4px;
