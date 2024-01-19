@@ -293,7 +293,10 @@
   .sidebar-sections {
     padding-right: var(--w11);
   }
-  .discourse-no-touch .d-header-icons .icon:not(#current-user > .icon):hover, .discourse-no-touch .d-header-icons .icon:not(#current-user > .icon):focus{
+  .d-header-icons .icon {
+    border:none;
+  }
+  .discourse-no-touch .d-header-icons .icon:not(.current-user .icon):hover, .discourse-no-touch .d-header-icons .icon:not(.current-user .icon):focus{
     background-color: var(--secondary-low);
   }
   
