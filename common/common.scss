@@ -31,6 +31,7 @@
     /*highlight-bg: couleur de background d'intro de texte lors de la creation d'un post*/
     /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
     --danger-low-mid:var(--secondary-high);
+    --d-border-radius:var(--radius-l);
    
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -1257,7 +1258,7 @@ pre code {
 .menu-panel 
 
 /* Finitions */
-.post-stream img{
+.post-stream .lightbox{
     border-radius:var(--radius-m)
 }
 
