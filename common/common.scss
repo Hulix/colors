@@ -897,14 +897,14 @@ display: block;
 .alert.alert-info {
   background-color: var(--secondary-high);
   .buttons{
-    .btn-primary{
+    button[type="button"].btn-primary{
       @extend %btblanc;
     }
-    .btn-text{
+    button[type="button"].btn-text{
       @extend %bttext;
     }
     a{
-
+      @extend %aa;
     }
   }
 }
