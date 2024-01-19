@@ -1226,6 +1226,17 @@ pre code {
     color: var(--primary);
 }
 
+/* Menu panel (header) */
+.menu-panel {
+    border-width: 4px;
+}
+
+
+/* Finitions */
+.post-stream img{
+    border-radius:var(--radius-m)
+}
+
 /*  */
 /*
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
