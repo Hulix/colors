@@ -293,12 +293,7 @@
   .sidebar-sections {
     padding-right: var(--w11);
   }
-  .d-header-icons .icon {
-    border-color:transparent;
-  }
-  .discourse-no-touch .d-header-icons .icon:not(.current-user .icon):hover, .discourse-no-touch .d-header-icons .icon:not(.current-user .icon):focus{
-    background-color: var(--secondary-low);
-  }
+
   
   
   /* Bannière accueil */
@@ -1230,8 +1225,17 @@ pre code {
 }
 
 /* Menu panel (header) */
+.d-header-icons .icon {
+    border-color:transparent;
+  }
+  .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus{
+    background-color: var(--secondary-low);
+  }
+  .discourse-no-touch .d-header-icons .current-user .icon:hover{
+    background-color: var(--secondary);
+  }
 .drop-down-mode .d-header-icons .active .icon {
-    border:none;
+   
 }
 .menu-panel {
     &.user-menu.revamped {
