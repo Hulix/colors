@@ -1255,7 +1255,7 @@ pre code {
 } 
 
 /* Finitions */
-.post-stream img{
+.post-stream img:not(.avatar){
     border-radius:var(--radius-m)
 }
 
