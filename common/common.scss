@@ -1016,6 +1016,10 @@ display: block;
     background-color: var(--secondary-nosat);
 }
 /* Invite page */
+.invites-show .login-title
+{
+  font-size: var(--font-up-4);
+}
 .invite-page .custom-footer{
     display:none;
   }
