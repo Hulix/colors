@@ -29,6 +29,12 @@
     height: 80px;
     opacity: 0;
 }
+.discourse-signup-banner {
+  .discourse-signup-banner-content,.discourse-signup-banner-cta {
+    width:100%;
+    margin-right:0;
+  }
+}
 
 /* Topics on mobile - marche pas 
 .categories-and-latest {
