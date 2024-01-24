@@ -272,7 +272,7 @@
     }
   }
 
-  img.avatar:not(.winner__avatar img.avatar),
+  img.avatar:not(.winner__avatar img.avatar, .user-card-avatar img.avatar),
   .cooked img.avatar:not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border: var(--w2) solid var(--primary);
     background:var(--primary);
