@@ -813,7 +813,7 @@ display: block;
 .topic-thumbnails-grid .topic-list-thumbnail, .topic-thumbnails-masonry .topic-list-thumbnail {
     aspect-ratio: 16 / 10;
     width: 100%;
-    border-radius:var(--radius-m);
+    border-radius:var(--radius-l);
     overflow:hidden;
 }
 .topic-list .topic-list-item .link-top-line, .topic-list {
@@ -1161,6 +1161,9 @@ pre code {
 }
 .leaderboard .user {
     background-color: var(--secondary-high);
+}
+.leaderboard .ranking-col-names {
+    @extend %border-bs;
 }
 /*
 .leaderboard .winner__crown{
