@@ -1141,7 +1141,8 @@ pre code {
 /* Leaderboard */
 .leaderboard .winner.-position1 .winner__avatar img,
 .leaderboard .winner.-position2 .winner__avatar img,
-.leaderboard .winner.-position3 .winner__avatar img {
+.leaderboard .winner.-position3 .winner__avatar img,
+.user-card-avatar img.avatar {
     border: var(--w4) solid var(--primary);
 }
 .leaderboard .podium__wrapper {
