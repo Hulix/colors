@@ -1162,9 +1162,7 @@ pre code {
 .leaderboard .user {
     background-color: var(--secondary-high);
 }
-.leaderboard .ranking-col-names {
-    @extend %border-bs;
-}
+
 /*
 .leaderboard .winner__crown{
     position:relative;
@@ -1294,6 +1292,9 @@ pre code {
 .leaderboard .page__title {
     color: var(--primary);
     margin-top: var(--w8);
+}
+.leaderboard.-minimal .ranking-col-names {
+    @extend %border-bs;
 }
 .user-menu.revamped #quick-access-profile li.do-not-disturb button {
     background-color: transparent;
