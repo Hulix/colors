@@ -29,12 +29,14 @@
     height: 80px;
     opacity: 0;
 }
-.discourse-signup-banner {
+.discourse-signup-banner{
   display:block;
-  .discourse-signup-banner-content,
-  .discourse-signup-banner-cta {
+  .discourse-signup-banner-content{
     width:100%;
     margin-right:0;
+  }
+  .discourse-signup-banner-cta {
+    width:100%;
   }
 }
 
