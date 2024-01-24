@@ -1281,7 +1281,11 @@ pre code {
 .post-stream img:not(.avatar){
     border-radius:var(--radius-m)
 }
-
+.leaderboard .page__title {
+    margin: 0;
+    color: var(--primary)
+    margin-top: var(--w8)
+}
 /*  */
 /*
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
