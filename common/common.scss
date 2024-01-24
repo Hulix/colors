@@ -1266,6 +1266,8 @@ pre code {
   width:90%;
   .discourse-signup-banner-cta-actions .btn{
     @extend %btsoft;
+    padding: .5em .65em;
+    width: 47%;
   }
 }
 
