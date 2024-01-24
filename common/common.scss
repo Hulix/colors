@@ -1283,10 +1283,13 @@ pre code {
     border-radius:var(--radius-m)
 }
 
-
 .leaderboard .page__title {
     color: var(--primary);
     margin-top: var(--w8);
+}
+.user-menu.revamped #quick-access-profile li.do-not-disturb button {
+    background-color: transparent;
+    border-color:transparent;
 }
 
 /*  */
