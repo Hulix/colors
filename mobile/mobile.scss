@@ -40,7 +40,15 @@
   }
 }
 .leaderboard .podium {
-    width: 100%!important;
+  width: 100%;
+  .leaderboard .winner__avatar {
+    display:flex;
+    justify-content:center;
+    img{
+      min-width: 60px;
+      min-height: 60px;
+    }
+  }
 }
 .leaderboard .winner.-position1 .winner__avatar img, .leaderboard .winner.-position2 .winner__avatar img, .leaderboard .winner.-position3 .winner__avatar img, .user-card-avatar img.avatar {
     border: var(--w2) solid var(--primary);
