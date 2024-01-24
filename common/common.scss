@@ -1259,6 +1259,16 @@ pre code {
     }
 } 
 
+/* Signup banner */
+.discourse-signup-banner{
+  background-color: var(--t-contraste);
+  border-radius:var(--radius-l);
+  width:90%;
+  .discourse-signup-banner-cta-actions .btn{
+    @extend %btsoft;
+  }
+}
+
 /* Finitions */
 .post-stream img:not(.avatar){
     border-radius:var(--radius-m)
