@@ -42,16 +42,6 @@
 .leaderboard .podium {
     width: 100%;
 }
-
-/* Topics on mobile - marche pas 
-.categories-and-latest {
-    display: block;
+.leaderboard .winner.-position1 .winner__avatar img, .leaderboard .winner.-position2 .winner__avatar img, .leaderboard .winner.-position3 .winner__avatar img, .user-card-avatar img.avatar {
+    border: var(--w2) solid var(--primary);
 }
-.latest-topic-list{
-    display: block;
-    visibility:visible;
-    .latest-topic-list-item.category-discussions{
-      display: block;
-    }
-  }
-*/
