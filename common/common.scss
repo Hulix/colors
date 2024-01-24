@@ -271,6 +271,7 @@
       }
     }
   }
+
   img.avatar:not(.winner__avatar img.avatar, .user-card-avatar img.avatar),
   .cooked img.avatar:not(.thumbnail):not(.ytp-thumbnail-image):not(.emoji) {
     border: var(--w2) solid var(--primary);
@@ -1281,11 +1282,13 @@ pre code {
 .post-stream img:not(.avatar){
     border-radius:var(--radius-m)
 }
+
+
 .leaderboard .page__title {
-    margin: 0;
-    color: var(--primary)
-    margin-top: var(--w8)
+    color: var(--primary);
+    margin-top: var(--w8);
 }
+
 /*  */
 /*
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
