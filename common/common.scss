@@ -1264,10 +1264,16 @@ pre code {
   background-color: var(--t-contraste);
   border-radius:var(--radius-l);
   width:90%;
-  .discourse-signup-banner-cta-actions .btn{
-    @extend %btsoft;
-    padding: .5em .65em;
-    width: 47%;
+  .discourse-signup-banner-content{
+    width: 60%;
+  }
+  .discourse-signup-banner-cta {
+    width: 40%;
+    .discourse-signup-banner-cta-actions .btn{
+        @extend %btsoft;
+        padding: .5em .65em;
+        width: 47%;
+    }
   }
 }
 
