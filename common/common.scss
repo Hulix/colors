@@ -1030,6 +1030,7 @@ display: block;
   box-shadow: none;
   border-radius: var(--w9);
   border: var(--w4) solid var(--secondary-high);
+  transform: scale(.90) translateX(-50%) translateY(-50%);
 }
 .invitation-cta__accept, .btn-primary[type="submit"]{
     @extend %btviolet;
