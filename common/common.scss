@@ -1315,6 +1315,14 @@ pre code {
 .discourse-automation-form .alert.alert-warning {
   background: var(--secondary-low);
 }
+.popup-menu {
+  border: 4px solid var(--primary-low);
+  padding: var(--w7);
+  border-radius:var(--radius-m);
+}
+.voting-wrapper.show-pointer .vote-count-wrapper:not(.no-votes):hover {
+  background-color: var(--secondary);
+}
 /* hide the users map link*/
 .sidebar-container li[data-list-item-name="users map"] {
   display: none;
