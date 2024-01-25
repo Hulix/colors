@@ -1312,7 +1312,10 @@ pre code {
     background-color: transparent;
     border-color:transparent;
 }
-
+/* hide the users map link*/
+.sidebar-container li[data-list-item-name="users map"] {
+  display: none;
+  }
 /*  */
 /*
 .nav-pills, .new-user-wrapper .user-navigation .nav-pills {
