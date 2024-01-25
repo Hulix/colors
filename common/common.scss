@@ -191,9 +191,11 @@
   .category-box-inner a{
     color: #8822f4;
   }
+  /*
   .category-box-inner a:hover{
     color:var(--quaternary);
   }
+  */
   p a:not(.mention):hover{
     text-decoration:underline;
     text-decoration-skip-ink: auto;
