@@ -587,6 +587,10 @@
            font-family: var(--font-family);
            color:var(--primary)
         }
+        .widget-button.btn {
+           border-radius:0;
+        }
+
     }
   }
   .topic-map section {
