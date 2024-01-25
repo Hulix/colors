@@ -1331,12 +1331,13 @@ pre code {
 
   /* Admin */
   .admin-controls {
-    .nav-pills>li a
-    &.active {
-        background: var(--secondary-high);
-    }
-    &:hover {
-        background: var(--secondary);
+    .nav-pills>li a{
+        &.active {
+            background: var(--secondary-high);
+        }
+        &:hover {
+            background: var(--secondary);
+        }    
     }
   }
   .admin-contents{
