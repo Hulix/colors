@@ -56,3 +56,6 @@
 .user-card .first-row .user-card-avatar, .group-card .first-row .user-card-avatar {
     padding-bottom: var(--w7)
 }
+.invite-page .invites-show {
+  transform: scale(1) translateX(-50%) translateY(-50%);
+}
