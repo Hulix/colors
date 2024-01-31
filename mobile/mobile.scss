@@ -53,3 +53,6 @@
 .leaderboard .winner.-position1 .winner__avatar img, .leaderboard .winner.-position2 .winner__avatar img, .leaderboard .winner.-position3 .winner__avatar img, .user-card-avatar img.avatar {
     border: var(--w2) solid var(--primary);
 }
+.user-card .first-row .user-card-avatar, .group-card .first-row .user-card-avatar {
+    margin-bottom: var(--w7)
+}
