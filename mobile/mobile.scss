@@ -15,7 +15,7 @@
     }
   }
 }
-  img.avatar {
+  img.avatar:not(.user-card-avatar img.avatar) {
     max-width: 36px;
     max-height: 36px;
   }
