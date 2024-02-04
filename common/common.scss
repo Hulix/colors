@@ -25,8 +25,6 @@
     --highlight-bg:var(--secondary-low);
     --highlight-low-or-medium:var(--secondary-low);
     --header_primary-low-mid:var(--primary);
-    /*highlight-bg: couleur de background d'intro de texte lors de la creation d'un post*/
-    /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
     --danger-low-mid:var(--secondary-high);
     --d-border-radius:var(--radius-l);
     --avatar-width:var(--w12);
@@ -61,6 +59,66 @@
     --visited:#FFDC5D;
     --hover-secondary:#534076;
   }
+
+  
+/**** /////////////////////// ****/
+/**** MODIF CATEGORIES ELOISE ****/
+
+  .category-box-discussions{
+    .category-box-heading {
+        &:before{
+        content:'💬';
+        }
+      }
+  }
+  .category-box-nofomo{
+    .category-box-heading {
+        &:before{
+        content:'👀';
+        }
+      }
+  }
+  .category-box-events{
+    .category-box-heading {
+        &:before{
+        content:'🗓️';
+        }
+      }
+  }
+  .category-box-resources{
+    .category-box-heading {
+        &:before{
+        content:'📚';
+        }
+      }
+  }
+  .category-box-staff{
+    .category-box-heading {
+        &:before{
+        content:'🔒';
+        }
+      }
+  }
+  .category-box-advisor{
+    .category-box-heading {
+        &:before{
+        content:'📞';
+        }
+      }
+  }
+  .category-box-le-gratin{
+    .category-box-heading {
+        &:before{
+        content:'👨‍🍳';
+        }
+      }
+  }
+
+/**** FIN MODIF CATEGORIES ELOISE ****/
+/**** /////////////////////////// ****/
+
+
+
   
   /* Héritages étendus */
   %ultra{
@@ -88,10 +146,10 @@
   }
 
   %border-bs{
-    border-bottom:/*var(--line-s)*/4px solid var(--secondary-low)
+    border-bottom:4px solid var(--secondary-low)
   }
   %border-ts{
-    border-top:/*var(--line-s)*/4px solid var(--secondary-low)
+    border-top:4px solid var(--secondary-low)
   }
 
   %imago{
@@ -189,11 +247,6 @@
   .category-box-inner a{
     color: #8822f4;
   }
-  /*
-  .category-box-inner a:hover{
-    color:var(--quaternary);
-  }
-  */
   p a:not(.mention):hover{
     text-decoration:underline;
     text-decoration-skip-ink: auto;
@@ -246,12 +299,6 @@
   }
 }
 
-
-  /*
-  .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
-    border-radius:0.313rem
-  }
-  */
   .sidebar-section-link-wrapper .sidebar-section-link.active {
     border-radius:var(--w3);	
   }
@@ -375,73 +422,10 @@
       }    
     }
   }
-  .category-box-discussions{
-    .category-box-heading {
-        &:before{
-        content:'💬';
-        }
-      }
-  }
-  .category-box-nofomo{
-    .category-box-heading {
-        &:before{
-        content:'👀';
-        }
-      }
-  }
-  .category-box-events{
-    .category-box-heading {
-        &:before{
-        content:'🗓️';
-        }
-      }
-  }
-  .category-box-resources{
-    .category-box-heading {
-        &:before{
-        content:'📚';
-        }
-      }
-  }
-  .category-box-staff{
-    .category-box-heading {
-        &:before{
-        content:'🔒';
-        }
-      }
-  }
-  .category-box-advisor{
-    .category-box-heading {
-        &:before{
-        content:'📞';
-        }
-      }
-  }
-  .category-box-le-gratin{
-    .category-box-heading {
-        &:before{
-        content:'👨‍🍳';
-        }
-      }
-  }
   /* Sous-cat - page ressource */
   #header-list-area .custom-category-boxes .category-box-inner .category-logo {
     width: calc(var(--w9) - var(--w3));
 }
-  /*
-  .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box:nth-child(1) {
-    .category-box-inner {
-      .category-details{
-        .category-box-heading {
-          &:before{
-          content:'💬';
-          }
-        }
-      }
-    }
-  }
-  */
-  
   
   /* SAVE - Blocs Accueil / version table */
   .categories-and-latest{
@@ -600,16 +584,6 @@
     box-shadow: none;
     left:0;
 }
-/* Tricky 1 line avatar topics - TEST */
-/*
-.topic-list .topic-list-data.posters {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    padding-bottom: 2px;
-}
-*/
 .topic-list .posters>a{
     display: none;
     }
@@ -738,12 +712,6 @@ display: block;
 
 
   .btn-default {
-    /*
-    background-color: var(--quaternary);
-    color: var(--highlight);
-    border-radius: var(--w4);
-    border: 1px solid var(--quaternary);
-    */
     .d-icon {
       color: var(--highlight);
     }
@@ -1173,20 +1141,6 @@ pre code {
     background-color: var(--secondary-high);
 }
 
-/*
-.leaderboard .winner__crown{
-    position:relative;
-    opacity:0;
-    &:before {
-        opacity:1;
-        content:'lorem';
-        position:absolute;
-        top:0;left:0;right:0;
-        width:100%;height:40px;
-        margin-top:-3px; 
-  }
-}
-*/
 /* Progress bar (reader) */
 #topic-progress {
   background-color: var(--t-contraste);
@@ -1325,33 +1279,6 @@ pre code {
 .sidebar-container li[data-list-item-name="users map"] {
   display: none;
   }
-/*  */
-/*
-.nav-pills, .new-user-wrapper .user-navigation .nav-pills {
-    & > li a {
-      color: var(--tertiary);
-  
-      &.active {
-        color: var(--primary);
-        background-color: var(--secondary);
-        border-bottom: 4px solid var(--primary);
-        border-radius:0;
-        .d-icon {
-          color: var(--primary);
-        }
-        &:hover {
-          color: var(--primary);
-        }
-      }
-  
-      &:hover {
-        color: var(--tertiary);
-        background-color: var(--secondary);
-        border-bottom: 4px solid var(--primary);
-      }
-    }
-  }
-  */
 
   /* Admin */
   .admin-controls {
