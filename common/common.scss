@@ -1,3 +1,8 @@
+<script type="text/x-handlebars" data-template-name="/connectors/above-main-container-outlet">
+  <div style="height: 200px; width: 200px;background: red"></div>
+</script>
+
+
 :root{
     /* ALL */
     
@@ -835,7 +840,7 @@ display: block;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
-        margin-bottom:var(--w4);
+        margin-bottom:var(--w2);
     }
     .link-bottom-line .discourse-tags{
         overflow: hidden;
