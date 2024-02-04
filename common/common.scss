@@ -1,10 +1,10 @@
 :root{
     /* ALL */
-    
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 
     /* Fix */
-    --font-family:'PPTelegraf-Regular';
-    --font-ultra:'PPTelegraf-Ultrabold';
+    --font-family:'Inter', sans-serif;
+    /*--font-ultra:'PPTelegraf-Ultrabold';*/
     --heading-font-family:var(--font-ultra);
     --d-sidebar-link-color: var(--primary);
     --d-sidebar-link-icon-color: var(--primary);
@@ -32,6 +32,7 @@
     /*--tertiary-low : background afficher sur les notifs d'interactions (grands blocs)*/
     --danger-low-mid:var(--secondary-high);
     --d-border-radius:var(--radius-l);
+    --avatar-width:var(--w12);
    
     /* Sizes */
     --w0: 0rem; /* 0px */
@@ -66,9 +67,8 @@
   
   /* Héritages étendus */
   %ultra{
-    font-family:var(--font-ultra);
     color:var(--primary);
-    font-weight: 800;
+    font-weight: 900;
   }
   %blocshine{
     background:var(--primary);
@@ -181,6 +181,7 @@
   body {
     font-family: var(--font-family);
     font-size: 16px;
+    font-weight: 400;
   } 
   h1,h2,h3,h4,h5,h6{
     font-family: var(--font-ultra);
