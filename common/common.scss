@@ -502,10 +502,10 @@
       padding: var(--w8) 1em;
       @extend %border-bs;
       .main-link .top-row, .link-top-line {
-        font-size: var(--font-0);
+        /*font-size: var(--font-0);*/
       }
       a.title{
-        @extend %ultra;
+        /*@extend %ultra;*/
       }
       .topic-stats {
         color:inherit;
